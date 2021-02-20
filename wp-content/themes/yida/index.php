@@ -725,11 +725,10 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                             <div class="p-index-slider__item-content__inner l-inner">
                             </div>
                         </div>
-                        <a class="p-index-slider__item-image"
-                            href="https://design-halue.com/work/%e7%b6%ba%e9%ba%97%e3%81%aa%e6%9a%96%e7%82%89%e3%81%ae%e3%81%82%e3%82%8b%e5%ae%b6/">
+                        <div class="p-index-slider__item-image">
 
                             <img src="<?php echo get_template_directory_uri(); ?>/images/slide_01.jpg" alt="">
-                        </a>
+                        </div>
                     </a>
 
                 </div>
