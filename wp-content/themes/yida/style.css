@@ -192,6 +192,7 @@ a:hover {
     position: absolute;
     top: -47px;
     display: table;
+    z-index: 300;
 }
 
 .home-portfolio-filter-ul li {
