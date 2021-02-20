@@ -185,6 +185,7 @@ a:hover {
     display: inline-block;
     width: 146px;
     text-align: center;
+    position: relative;
 }
 
 .home-portfolio-filter-ul li a {
@@ -192,6 +193,8 @@ a:hover {
     background: #fff;
     line-height: 1.6;
     width: 100%;
+    position: absolute;
+    height: 100%;
 }
 
 @media only screen and (max-width: 1920px) {}
