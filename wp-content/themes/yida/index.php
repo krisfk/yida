@@ -744,7 +744,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </div>
                 <div class="p-index-slider__item-content-bottom">
                     <div class="p-index-slider__item-content-bottom__inner l-inner">
-                        <div class="p-index-slider__item-headline">精緻作品</div>
+                        <div class="p-index-slider__item-headline">我們是⋯</div>
                         <a class="p-index-slider__item-button"
                             href="https://design-halue.com/work/%e7%b6%ba%e9%ba%97%e3%81%aa%e6%9a%96%e7%82%89%e3%81%ae%e3%81%82%e3%82%8b%e5%ae%b6/"><span>工程案例
                                 ></span></a>
@@ -768,7 +768,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </div>
                 <div class="p-index-slider__item-content-bottom">
                     <div class="p-index-slider__item-content-bottom__inner l-inner">
-                        <div class="p-index-slider__item-headline">實用作品</div>
+                        <div class="p-index-slider__item-headline">我們是⋯</div>
                         <a class="p-index-slider__item-button"
                             href="https://design-halue.com/work/%e5%a4%a9%e7%a9%ba%e3%81%ae%e3%83%aa%e3%83%93%e3%83%b3%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%a0/"><span>工程案例
                                 ></span></a>
@@ -1059,6 +1059,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
     });
     </script>
+    test
 </body>
 
 </html>
