@@ -183,12 +183,15 @@ a:hover {
 
 .home-portfolio-filter-ul li {
     display: inline-block;
+    width: 146px;
+    text-align: center;
 }
 
 .home-portfolio-filter-ul li a {
     padding: 23px 0;
     background: #fff;
     line-height: 1.6;
+    width: 100%;
 }
 
 @media only screen and (max-width: 1920px) {}
