@@ -157,13 +157,17 @@ a:hover {
     vertical-align: middle;
 }
 
+.slide-container {
+    position: relative;
+}
+
 #js-index-slider1 {
     margin: 0;
 }
 
 #js-index-slider2 {
     margin: 0;
-    display: none;
+    /* display: none; */
 }
 
 .footer-info-1 {
