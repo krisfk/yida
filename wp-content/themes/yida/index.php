@@ -929,9 +929,9 @@ get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
                                 並創造一個充滿能量的空間。</div>
                             <div class="col-xl-9 col-md-8 footer-grey-img-div">
                                 <img class="footer-grey-img" src="<?php echo 
-get_template_directory_uri().'/images/footer-thumbnail0-1.jpg'; ?>">
+get_template_directory_uri().'/images/footer-thumbnail-1.jpg'; ?>">
                                 <img class="footer-grey-img" src="<?php echo 
-get_template_directory_uri().'/images/footer-thumbnail0-2.jpg'; ?>">
+get_template_directory_uri().'/images/footer-thumbnail-2.jpg'; ?>">
                             </div>
 
                         </div>
