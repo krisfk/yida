@@ -823,7 +823,11 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                 <div class="row">
 
-                    <div class="col-lg-6">f</div>
+                    <div class="col-lg-6">
+
+                        <img src="<?php echo 
+get_template_directory_uri().'/images/home-thumb-1.jpg'; ?>" alt="">
+                    </div>
                     <div class="col-lg-6">f</div>
                 </div>
             </div>
