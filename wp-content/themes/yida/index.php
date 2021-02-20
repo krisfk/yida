@@ -802,8 +802,8 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
 
             <ul class="home-portfolio-filter-ul">
-                <li><a class="active" href="javascript:void(0);"> 精緻作品 &gt;</a></li>
-                <li><a href="javascript:void(0);">實用作品 &gt;</a></li>
+                <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
+                <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
             </ul>
 
             <table class="mt-5 content-table">

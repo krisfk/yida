@@ -204,6 +204,14 @@ a:hover {
     line-height: 1.6;
 }
 
+.home-portfolio-filter-ul li a .arrow {
+    display: none;
+}
+
+.home-portfolio-filter-ul li a.active .arrow {
+    display: inline-block;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
