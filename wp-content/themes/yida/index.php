@@ -1091,8 +1091,10 @@ get_template_directory_uri().'/images/home-thumb-1.jpg'; ?>" alt="">
             $('.home-portfolio-filter-ul li a').removeClass('active');
             $(this).toggleClass('active');
 
-            var viewing_idx = $(this).parent('li').index() + 1;
-            alert(viewing_idx);
+            viewing_idx = $(this).parent('li').index() + 1;
+
+            $('.portfolio-thumbnail').fadeOut(0);
+            $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
 
         })
 
