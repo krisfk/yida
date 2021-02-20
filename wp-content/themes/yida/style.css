@@ -19,6 +19,7 @@ Yida WordPress Theme, (C) 2020 WordPress.org
 Yida is distributed under the terms of the GNU GPL.
 */
 
+
 /**
  * SETTINGS
  * File-header..........The file header for the themes style.css file.
@@ -95,128 +96,133 @@ Yida is distributed under the terms of the GNU GPL.
  * Measure..............The width of a line of text, in characters.
  */
 
+
 /* Categories 01 to 03 are the basics. */
 
+
 /* Reset CSS */
+
 
 /**
  * Reset
  */
 
 .yida-logo {
-  width: 115px;
+    width: 115px;
 }
 
 .p-siteinfo table td {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 body {
-  line-height: 2;
-  letter-spacing: 3px;
-  font-family: Trebuchet, Arial, Helvetica, sans-serif, '細明體';
+    line-height: 2;
+    letter-spacing: 3px;
+    font-family: Trebuchet, Arial, Helvetica, sans-serif, '細明體';
 }
 
 .footer-grey-img {
-  height: 142px;
-  /* float: left; */
-  /* margin-right: 10px; */
+    height: 142px;
+    /* float: left; */
+    /* margin-right: 10px; */
 }
 
 ul,
 ol {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a:hover {
-  color: #000;
+    color: #000;
 }
 
 .test-div {
-  position: relative;
+    position: relative;
 }
 
 .subtitle {
-  font-size: 24px;
-  margin: 0;
+    font-size: 24px;
+    margin: 0;
 }
 
 .subtitle-bar {
-  background: #538c2f;
-  height: 45px;
-  width: 6px;
-  margin: 0 15px 0 0;
+    background: #538c2f;
+    height: 45px;
+    width: 6px;
+    margin: 0 15px 0 0;
 }
 
 .content-table td {
-  vertical-align: middle;
+    vertical-align: middle;
 }
 
 #js-index-slider {
-  margin: 0;
+    margin: 0;
 }
 
 .footer-info-1 {
-  float: left;
+    float: left;
 }
 
 .footer-info-2 {
-  float: right;
+    float: right;
 }
 
 .top-grey-bar {
-  display: block;
-  height: 4px;
-  background: #dddddd;
+    display: block;
+    height: 4px;
+    background: #dddddd;
 }
 
-@media only screen and (max-width: 1920px) {
+.home-portfolio-filter-ul {
+    position: absolute;
 }
 
-@media only screen and (max-width: 1200px) {
-}
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
 
 @media only screen and (max-width: 1024px) {
-  .footer-info-1 {
-    float: left;
-    display: block;
-    margin: 20px 0 0 0;
-  }
-  .footer-info-2 {
-    margin: 20px 0 0 0;
-    float: left;
-    display: block;
-  }
+    .footer-info-1 {
+        float: left;
+        display: block;
+        margin: 20px 0 0 0;
+    }
+    .footer-info-2 {
+        margin: 20px 0 0 0;
+        float: left;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-  .yida-logo {
-    height: 50px;
-    width: auto;
-  }
+    .yida-logo {
+        height: 50px;
+        width: auto;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-  .footer-grey-img-div {
-    text-align: center;
-  }
-  .footer-grey-text {
-    text-align: center;
-    padding: 0 0 20px 0;
-  }
+    .footer-grey-img-div {
+        text-align: center;
+    }
+    .footer-grey-text {
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-  .footer-grey-text {
-    text-align: center;
-  }
+    .footer-grey-text {
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  .footer-grey-img {
-    width: 100%;
-    height: auto;
-    margin: 20px 0 10px 0;
-  }
+    .footer-grey-img {
+        width: 100%;
+        height: auto;
+        margin: 20px 0 10px 0;
+    }
 }
