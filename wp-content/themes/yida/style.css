@@ -177,6 +177,7 @@ a:hover {
 
 .home-portfolio-filter-ul {
     position: absolute;
+    top: -43px;
 }
 
 .home-portfolio-filter-ul li {
@@ -186,6 +187,7 @@ a:hover {
 .home-portfolio-filter-ul li a {
     padding: 19px 30px;
     background: #fff;
+    line-height: 1.6;
 }
 
 @media only screen and (max-width: 1920px) {}
