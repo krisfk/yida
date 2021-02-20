@@ -819,7 +819,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
             </ul>
 
 
-            <div class="container">
+            <div class="container g-0">
 
                 <div class="row g-0">
 
