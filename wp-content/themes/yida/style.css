@@ -183,7 +183,7 @@ a:hover {
 
 .home-portfolio-filter-ul li {
     display: inline-block;
-    width: 146px;
+    /* width: 146px; */
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ a:hover {
     padding: 23px 0;
     background: #fff;
     line-height: 1.6;
-    width: 100%;
+    /* width: 100%; */
 }
 
 @media only screen and (max-width: 1920px) {}
