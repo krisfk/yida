@@ -817,7 +817,16 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
                 <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
             </ul>
-            fdsf
+
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-lg-6">f</div>
+                    <div class="col-lg-6">f</div>
+                </div>
+            </div>
             <!-- <table class="mt-5 content-table">
                 <tr>
                     <td>
