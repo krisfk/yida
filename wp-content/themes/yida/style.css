@@ -157,7 +157,11 @@ a:hover {
     vertical-align: middle;
 }
 
-#js-index-slider {
+#js-index-slider1 {
+    margin: 0;
+}
+
+#js-index-slider2 {
     margin: 0;
 }
 

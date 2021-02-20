@@ -716,7 +716,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
     </header>
     <main class="l-main">
-        <div id="js-index-slider" class="p-index-slider" data-slide-time="7000">
+        <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
@@ -761,6 +761,54 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
             </div>
         </div>
+
+
+        <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
+            <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
+                <div class="p-index-slider__item__inner">
+                    <div class="p-index-slider__item-content">
+                        <div class="p-index-slider__item-content__inner l-inner">
+                        </div>
+                    </div>
+                    <a class="p-index-slider__item-image"
+                        href="https://design-halue.com/work/%e7%b6%ba%e9%ba%97%e3%81%aa%e6%9a%96%e7%82%89%e3%81%ae%e3%81%82%e3%82%8b%e5%ae%b6/"><img
+                            src="" alt="">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_01.jpg" alt="">
+                    </a>
+                </div>
+
+            </div>
+            <div class="p-index-slider__item p-index-slider__item--2 has-button has-link-button">
+                <div class="p-index-slider__item__inner">
+                    <div class="p-index-slider__item-content">
+                        <div class="p-index-slider__item-content__inner l-inner">
+                        </div>
+                    </div>
+                    <a class="p-index-slider__item-image"
+                        href="https://design-halue.com/work/%e5%a4%a9%e7%a9%ba%e3%81%ae%e3%83%aa%e3%83%93%e3%83%b3%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%a0/">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_02.jpg" alt="">
+
+                    </a>
+                </div>
+
+            </div>
+            <div class="p-index-slider__item p-index-slider__item--3 has-button has-link-button">
+                <div class="p-index-slider__item__inner">
+                    <div class="p-index-slider__item-content">
+                        <div class="p-index-slider__item-content__inner l-inner">
+                        </div>
+                    </div>
+                    <a class="p-index-slider__item-image"
+                        href="https://design-halue.com/work/%e5%8f%a4%e3%81%84%e3%82%82%e3%81%ae%e3%82%92%e7%94%9f%e3%81%8b%e3%81%97%e3%81%a6%e6%a5%bd%e3%81%97%e3%82%80%e3%80%82%e3%83%96%e3%83%ab%e3%83%83%e3%82%af%e3%83%aa%e3%83%b3%e7%94%b7%e5%ad%90%e3%82%aa/">
+
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_03.jpg" alt="">
+
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
 
         <div class="l-inner position-relative pt-5">
 

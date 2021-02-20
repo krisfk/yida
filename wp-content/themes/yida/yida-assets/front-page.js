@@ -4,9 +4,9 @@ jQuery(function($) {
      */
     $(document).on('js-initialized', function() {
         // header slider
-        if ($('#js-index-slider').length) {
-            var $slider = $('#js-index-slider');
-            var $slides = $('#js-index-slider .p-index-slider__item');
+        if ($('#js-index-slider1').length) {
+            var $slider = $('#js-index-slider1');
+            var $slides = $('#js-index-slider1 .p-index-slider__item');
 
             $slider.attr('data-slides', $slides.length).slick({
                 infinite: true,
@@ -20,7 +20,7 @@ jQuery(function($) {
                 adaptiveHeight: true,
                 autoplay: true,
                 speed: 1000,
-                autoplaySpeed: $('#js-index-slider').attr('data-slide-time') || 7000,
+                autoplaySpeed: $('#js-index-slider1').attr('data-slide-time') || 7000,
                 responsive: [{
                     breakpoint: 992,
                     settings: {
