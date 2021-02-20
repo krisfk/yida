@@ -823,15 +823,15 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </div>
             </div>
         </div> -->
-        <div class="l-inner position-relative">
-
+        <div class="l-inner position-relative pt-5">
+            fdsafd
 
             <table class="mt-5 content-table">
                 <tr>
                     <td>
                         <div class="subtitle-bar"></div>
                     </td>
-                    <td class="mb-5">
+                    <td class="">
                         <h3 class="subtitle">重要的不是佈局，而是生活方式。</h3>
                     </td>
                 </tr>
