@@ -181,7 +181,7 @@ a:hover {
 }
 
 .home-portfolio-filter-ul li {
-    display: inline-block;
+    display: table;
 }
 
 .home-portfolio-filter-ul li a {
