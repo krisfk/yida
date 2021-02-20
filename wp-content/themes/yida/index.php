@@ -659,30 +659,22 @@ get_template_directory_uri().'/style.css'; ?>' type='text/css' media='all' />
 <body class="home page-template-default page page-id-68 l-header__fix elementor-default elementor-kit-820">
 
 
-    <!-- <div class="test-div">test</div> -->
     <header id="js-header" class="l-header">
-        <!-- <div class="p-header__top">
-            <div class="p-header__top__inner l-inner">
-                <div class="p-header-description">岡山県倉敷市のインテリアデザイン事務所｜インテリアデザインハル</div>
-            </div>
-        </div> -->
+
         <div class="top-grey-bar"></div>
         <div class="l-header__bar p-header__bar">
             <div class="p-header__bar__inner l-inner">
                 <h1 class="p-logo p-header__logo">
                     <a href="https://design-halue.com/">
 
-                        <!-- <img
-                            src="https://design-halue.com/wp-content/uploads/2020/02/logo.png"
-                            alt="interior design halue"> -->
                         <img class="yida-logo" src="<?php echo 
 get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     </a>
                 </h1>
                 <div class="p-logo p-header__logo--mobile">
                     <a href="https://design-halue.com/">
-                        <!-- <img src="https://design-halue.com/wp-content/uploads/2020/02/logo.png"
-                            alt="interior design halue"> -->
+
+
                         <img class="yida-logo" src="<?php echo 
 get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     </a>
@@ -724,12 +716,11 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
     </header>
     <main class="l-main">
-        <div id="js-index-slider" class="p-index-slider" data-slide-time="7000">
+        <div id="js-index-sliderr" class="p-index-slider" data-slide-time="7000">
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
-                            <!-- <div class="p-index-slider__item-catch p-index-slider__item-catch--type1">綺麗な暖炉のある家</div> -->
                         </div>
                     </div>
                     <a class="p-index-slider__item-image"
@@ -744,13 +735,10 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
-                            <!-- <div class="p-index-slider__item-catch p-index-slider__item-catch--type1">天空のリビングルーム</div> -->
                         </div>
                     </div>
                     <a class="p-index-slider__item-image"
                         href="https://design-halue.com/work/%e5%a4%a9%e7%a9%ba%e3%81%ae%e3%83%aa%e3%83%93%e3%83%b3%e3%82%b0%e3%83%ab%e3%83%bc%e3%83%a0/">
-                        <!-- <img
-                            data-lazy="https://design-halue.com/wp-content/uploads/2020/06/slide_02.jpg" alt=""> -->
                         <img src="<?php echo get_template_directory_uri(); ?>/images/slide_02.jpg" alt="">
 
                     </a>
@@ -761,7 +749,6 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
-                            <!-- <div class="p-index-slider__item-catch p-index-slider__item-catch--type1">ブルックリン男子オフィス</div> -->
                         </div>
                     </div>
                     <a class="p-index-slider__item-image"
@@ -774,30 +761,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
             </div>
         </div>
-        <!-- <div class="p-index-news">
-            <div class="p-index-news__inner l-inner">
-                <div id="js-index-newsticker" class="p-index-news__items" data-slide-time="7000">
-                    <article class="p-index-news__item">
-                        <a
-                            href="https://design-halue.com/news/%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%83%aa%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3blog%e5%be%8c%e7%b7%a8%e3%82%92up%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/">
-                            <p class="p-index-news__item-date"><time datetime="2021-01-03">2021.01.03</time></p>
-                            <h3 class="p-index-news__item-title">オフィスリノベーションblog後編をupしました！</h3>
-                        </a>
-                    </article>
-                    <article class="p-index-news__item">
-                        <a
-                            href="https://design-halue.com/news/%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%83%aa%e3%83%8e%e3%83%99%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3blog%e5%89%8d%e7%b7%a8%e3%82%92up%e3%81%97%e3%81%be%e3%81%97%e3%81%9f%ef%bc%81/">
-                            <p class="p-index-news__item-date"><time datetime="2020-11-09">2020.11.09</time></p>
-                            <h3 class="p-index-news__item-title">オフィスリノベーションblog前編をupしました！</h3>
-                        </a>
-                    </article>
-                </div>
-                <div class="p-index-news__archive-link">
-                    <a class="p-index-news__archive-link__button p-button"
-                        href="https://design-halue.com/news/"><span>NEWS一覧</span></a>
-                </div>
-            </div>
-        </div> -->
+
         <div class="l-inner position-relative pt-5">
 
 
@@ -841,54 +805,6 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </tr>
             </table>
 
-            <!-- <div id="cb_1" class="p-cb__item p-cb__item--banner">
-                <div class="p-index-banner has-image">
-                    <div class="p-index-banner__image p-hover-effect__image"><img
-                            src="https://design-halue.com/wp-content/uploads/2020/02/shop_banner-2.jpg" alt=""></div>
-                    <div class="p-index-banner__content">
-                        <div class="p-index-banner__content__inner">
-                            <p class="p-index-banner__desc">日々の暮らしの楽しさや、空間づくりのお手伝いをさせていただくインテリアデザイン事務所です。</p>
-                            <h2 class="p-index-banner__headline">interior design halue</h2>
-                            <a class="p-index-banner__button p-button" href="profile"><span>Profile</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div id="cb_2" class="p-cb__item p-cb__item--three_boxes">
-                <div class="p-index-boxes p-index-boxes--3">
-                    <div class="p-index-boxes__item p-index-boxes__item--1 has-image">
-                        <a class="p-hover-effect--type3" href="service-3">
-                            <div class="p-index-boxes__item-content">
-                                <p class="p-index-boxes__item-desc">ハルのサービス内容を掲載しています</p>
-                                <h2 class="p-index-boxes__item-headline">Service</h2>
-                            </div>
-                            <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                                    src="https://design-halue.com/wp-content/uploads/2020/02/service-1.jpg" alt="">
-                            </div>
-                        </a>
-                    </div>
-                    <div class="p-index-boxes__item p-index-boxes__item--2 has-image">
-                        <a class="p-hover-effect--type3" href="works">
-                            <div class="p-index-boxes__item-content">
-                                <p class="p-index-boxes__item-desc">実績をカテゴリ別にご紹介しています</p>
-                                <h2 class="p-index-boxes__item-headline">Works</h2>
-                            </div>
-                            <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                                    src="https://design-halue.com/wp-content/uploads/2020/07/works.jpg" alt=""></div>
-                        </a>
-                    </div>
-                    <div class="p-index-boxes__item p-index-boxes__item--3 has-image">
-                        <a class="p-hover-effect--type3" href="flow-2">
-                            <div class="p-index-boxes__item-content">
-                                <p class="p-index-boxes__item-desc">ヒアリングから納品までの流れをご覧いただけます</p>
-                                <h2 class="p-index-boxes__item-headline">Flow</h2>
-                            </div>
-                            <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                                    src="https://design-halue.com/wp-content/uploads/2020/07/flow.jpg" alt=""></div>
-                        </a>
-                    </div>
-                </div>
-            </div> -->
 
         </div>
     </main>
