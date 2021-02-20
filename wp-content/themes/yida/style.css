@@ -205,11 +205,11 @@ a:hover {
 }
 
 .home-portfolio-filter-ul li a .arrow {
-    display: none;
+    display: inline-block;
 }
 
 .home-portfolio-filter-ul li a.active .arrow {
-    display: inline-block;
+    display: none;
 }
 
 @media only screen and (max-width: 1920px) {}

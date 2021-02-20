@@ -1037,6 +1037,13 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
         initialize();
 
+
+        $('.home-portfolio-filter-ul li a').click(function() {
+            $('.home-portfolio-filter-ul li a').removeClass('active');
+            $(this).toggleClass('active');
+
+        })
+
     });
     </script>
 
