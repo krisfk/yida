@@ -827,7 +827,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
 
             <ul class="home-portfolio-filter-ul">
-                <li><a href="javascript:void(0);"> 精緻作品</a></li>
+                <li><a class="active" href="javascript:void(0);"> 精緻作品</a></li>
                 <li><a href="javascript:void(0);">實用作品</a></li>
             </ul>
 
