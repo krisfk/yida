@@ -287,12 +287,11 @@ a:hover {
     .footer-grey-text {
         text-align: center;
     }
-}
-
-@media only screen and (max-width: 480px) {
     .footer-grey-img {
         width: 100%;
         height: auto;
         margin: 20px 0 10px 0;
     }
 }
+
+@media only screen and (max-width: 480px) {}
