@@ -763,7 +763,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
         </div>
 
 
-        <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
+        <div id="js-index-slider2" class="p-index-slider d-none" data-slide-time="7000">
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
