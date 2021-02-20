@@ -1097,7 +1097,7 @@ get_template_directory_uri().'/images/home-thumb-1.jpg'; ?>" alt="">
             $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
 
             $('.p-index-slider').fadeOut(0);
-            $('#js-index-slider-' + viewing_idx).fadeIn(0);
+            $('.p-index-slider#js-index-slider-' + viewing_idx).fadeIn(0);
 
         })
 
