@@ -823,10 +823,10 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </div>
             </div>
         </div> -->
-        <div class="l-inner">
+        <div class="l-inner position-relative">
 
 
-            <table class="pt-5 content-table">
+            <table class="mt-5 content-table">
                 <tr>
                     <td>
                         <div class="subtitle-bar"></div>
