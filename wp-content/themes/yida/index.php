@@ -817,8 +817,8 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
                 <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
             </ul>
-
-            <table class="mt-5 content-table">
+            fdsf
+            <!-- <table class="mt-5 content-table">
                 <tr>
                     <td>
                         <div class="subtitle-bar"></div>
@@ -851,7 +851,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     <td class="pt-3">本公司成立超過十年，承接各類室內裝修全科工程，由設計出圖，上門洽談度尺，工程展開，
                         跟進直至完工，為客人提供一條龍服務，亦可按客人要求提供各類局部裝修工程服務。 </td>
                 </tr>
-            </table>
+            </table> -->
 
 
         </div>
