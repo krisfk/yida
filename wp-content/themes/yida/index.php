@@ -821,7 +821,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
             <div class="container g-0">
 
-                <div class="row g-0">
+                <div class="row">
 
                     <div class="col-lg-6">
 
