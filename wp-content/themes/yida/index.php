@@ -928,10 +928,10 @@ get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
                                 可幫助您佈置生活，享受你所想，<br>
                                 並創造一個充滿能量的空間。</div>
                             <div class="col-xl-9 col-md-8 footer-grey-img-div">
-                                <img class="footer-grey-img"
-                                    src="https://design-halue.com/wp-content/uploads/2020/07/halue-300x200.jpg">
-                                <img class="footer-grey-img"
-                                    src="https://design-halue.com/wp-content/uploads/2020/07/halue-300x200.jpg">
+                                <img class="footer-grey-img" src="<?php echo 
+get_template_directory_uri().'/images/footer-thumbnail0-1.jpg'; ?>">
+                                <img class="footer-grey-img" src="<?php echo 
+get_template_directory_uri().'/images/footer-thumbnail0-2.jpg'; ?>">
                             </div>
 
                         </div>
