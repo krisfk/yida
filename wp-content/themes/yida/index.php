@@ -868,7 +868,7 @@ get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
 
                         <a href="javascript:void(0);">
 
-                            <div>fdsafd</div>
+                            <div class="caption">fdsafd</div>
                             <img class="w-100" src="<?php echo 
 get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
                         </a>
