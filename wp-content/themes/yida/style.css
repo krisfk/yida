@@ -224,7 +224,12 @@ a:hover {
     position: relative;
 }
 
-.portfolio-thumbnail a .caption {}
+.portfolio-thumbnail a .caption {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+}
 
 @media only screen and (max-width: 1920px) {}
 
