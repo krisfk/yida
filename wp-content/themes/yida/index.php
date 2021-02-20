@@ -716,7 +716,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
     </header>
     <main class="l-main">
-        <div id="js-index-slider11" class="p-index-slider" data-slide-time="7000">
+        <div id="js-index-slider" class="p-index-slider" data-slide-time="7000">
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <div class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
