@@ -49,6 +49,51 @@ jQuery(function($) {
             });
         }
 
+        if ($('#js-index-slider2').length) {
+            var $slider = $('#js-index-slider2');
+            var $slides = $('#js-index-slider2 .p-index-slider__item');
+
+            $slider.attr('data-slides', $slides.length).slick({
+                infinite: true,
+                dots: true,
+                arrows: false,
+                prevArrow: '<button type="button" class="slick-prev">&#xe90f;</button>',
+                nextArrow: '<button type="button" class="slick-next">&#xe910;</button>',
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                lazyLoad: 'progressive',
+                adaptiveHeight: true,
+                autoplay: true,
+                speed: 1000,
+                autoplaySpeed: $('#js-index-slider2').attr('data-slide-time') || 7000,
+                responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        dots: false,
+                        arrows: false,
+                    },
+                }, ],
+            });
+
+            // first slide activate
+            setTimeout(function() {
+                $slides.filter('.slick-active').addClass('is-active');
+            }, 1000);
+
+            // beforeChange
+            $slider.on(
+                'beforeChange',
+                function(event, slick, currentSlide, nextSlide) {
+                    $slides.filter('.is-active').removeClass('is-active');
+                }
+            );
+
+            // afterChange
+            $slider.on('afterChange', function(event, slick, currentSlide) {
+                $slides.filter('.slick-active').addClass('is-active');
+            });
+        }
+
         // news ticker
         if ($('#js-index-newsticker').length) {
             $('#js-index-newsticker').slick({
