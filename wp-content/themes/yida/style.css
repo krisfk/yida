@@ -123,8 +123,10 @@ body {
 
 .footer-grey-img {
     height: 142px;
-    /* float: left; */
-    /* margin-right: 10px; */
+    width: 45%;
+    margin: 0 10px;
+    max-width: 260px;
+    height: auto;
 }
 
 ul,
