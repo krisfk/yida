@@ -178,10 +178,11 @@ a:hover {
 .home-portfolio-filter-ul {
     position: absolute;
     top: -47px;
+    display: table;
 }
 
 .home-portfolio-filter-ul li {
-    display: table;
+    display: inline-block;
 }
 
 .home-portfolio-filter-ul li a {
