@@ -825,8 +825,11 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                     <div class="col-lg-6">
 
-                        <img src="<?php echo 
+                        <a href="" class="w-100">
+                            <img src="<?php echo 
 get_template_directory_uri().'/images/home-thumb-1.jpg'; ?>" alt="">
+                        </a>
+
                     </div>
                     <div class="col-lg-6">f</div>
                 </div>
