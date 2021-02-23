@@ -155,6 +155,11 @@ a:hover {
     margin: 0 15px 0 0;
 }
 
+.subtitle-bar-td {
+    width: 6px;
+    /* margin: 0 15px 0 0; */
+}
+
 .content-table td {
     vertical-align: middle;
 }
