@@ -117,8 +117,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td class="pt-3 pb-5">
+
+                    <td colspan="2" class="pt-3 pb-5">
 
                         <div class="container-fluid flow-step-div">
 
