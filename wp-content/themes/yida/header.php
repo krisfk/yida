@@ -681,10 +681,9 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </div>
                 <a href="#" id="js-menu-button" class="p-menu-button c-menu-button"></a>
                 <nav class="p-global-nav__container">
-                    <?php echo is_home();?>
                     <ul id="js-global-nav" class="p-global-nav">
                         <li id="menu-item-809"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php is_home() ?  'current-menu-item' :'';?> page_item page-item-68  menu-item-809">
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo is_home() ?  'current-menu-item' :'';?> page_item page-item-68  menu-item-809">
                             <a href="#" aria-current="page">主頁<span></span></a>
                         </li>
                         <li id="menu-item-809"
