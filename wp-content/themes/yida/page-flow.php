@@ -106,6 +106,21 @@
             </tbody>
         </table>
 
+        <table class="mt-5 content-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="subtitle-bar"></div>
+                    </td>
+                    <td class="mb-5">
+                        <h3 class="subtitle">裝修流程</h3>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
 
     </div>
 </main>
