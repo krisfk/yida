@@ -122,7 +122,7 @@
                     <td class="pt-3 pb-5">
                         <!-- fdsf -->
                         <?php
-                        // the_content();
+                        the_content();
                         
                 //    echo  do_shortcode('[woowgallery id="16"]');
                     ?>
