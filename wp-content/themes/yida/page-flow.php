@@ -128,7 +128,7 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
                             </div>
                             <div class="row">
 
-                                <div class="col">01</div>
+                                <div class="col text-center">01</div>
                                 <div class="col">01</div>
                                 <div class="col">01</div>
                                 <div class="col">01</div>
