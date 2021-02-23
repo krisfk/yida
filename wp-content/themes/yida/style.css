@@ -269,13 +269,13 @@ a:hover {
     font-weight: bold;
     color: #325918;
     font-size: 40px;
+    margin: 0 0 5px 0;
 }
 
 .txt_under_num {
     /* line-height: normal; */
     font-size: 18px;
     letter-spacing: normal;
-    margin: 0 0 5px 0;
 }
 
 .step-col {
