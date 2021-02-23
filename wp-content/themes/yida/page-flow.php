@@ -155,7 +155,7 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
                         </div>
 
 
-                        <div class="step-grey-line"></div>
+                        <div class="step-grey-line mt-5 mb-5"></div>
 
 
 
