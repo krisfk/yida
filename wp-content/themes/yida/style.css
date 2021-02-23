@@ -346,4 +346,14 @@ a:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .flow-step-div .num {
+        font-size: 15px;
+    }
+    .flow-step-div .txt_under_num {
+        font-size: 11px;
+    }
+    .flow-step-div .txt_under_num br {
+        display: none;
+    }
+}
