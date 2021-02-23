@@ -128,11 +128,21 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
                             </div>
                             <div class="row">
 
-                                <div class="col">01</div>
-                                <div class="col">01</div>
-                                <div class="col">01</div>
-                                <div class="col">01</div>
-                                <div class="col">01</div>
+                                <div class="col">
+                                    <div class="num"> 01</div>
+                                </div>
+                                <div class="col">
+                                    <div class="num"> 02</div>
+                                </div>
+                                <div class="col">
+                                    <div class="num"> 03</div>
+                                </div>
+                                <div class="col">
+                                    <div class="num"> 04</div>
+                                </div>
+                                <div class="col">
+                                    <div class="num"> 05</div>
+                                </div>
 
                             </div>
                         </div>
