@@ -275,13 +275,25 @@ a:hover {
     /* line-height: normal; */
 }
 
-.step-col-2 {}
+.step-col {
+    position: relative;
+}
 
-.step-col-3 {}
+.step-col-2 {
+    left: -1%;
+}
 
-.step-col-4 {}
+.step-col-3 {
+    left: -2%;
+}
 
-.step-col-5 {}
+.step-col-4 {
+    left: -3%;
+}
+
+.step-col-5 {
+    left: -4%;
+}
 
 @media only screen and (max-width: 1920px) {}
 
