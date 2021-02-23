@@ -138,7 +138,7 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
                                 </div>
                                 <div class="col">
                                     <div class="num"> 03</div>
-                                    <div>經相議後
+                                    <div>經相議後<br>
                                         雙方簽訂合約</div>
                                 </div>
                                 <div class="col">
