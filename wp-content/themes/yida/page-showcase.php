@@ -119,7 +119,12 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="pt-3 pb-5">XXXX</td>
+                    <td class="pt-3 pb-5">
+                        <?php
+                    do_shortcode('[woowgallery id="16"]');
+                    ?>
+
+                    </td>
                 </tr>
             </tbody>
         </table>
