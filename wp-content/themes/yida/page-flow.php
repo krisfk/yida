@@ -116,10 +116,10 @@
                         <h3 class="subtitle">免費諮詢。上門度尺。</h3>
                     </td>
                 </tr>
-                <!-- <tr>
+                <tr>
                     <td></td>
                     <td class="pt-3 pb-5">我們會用心聆聽，根據您所關注和要求，並為您提供建議。</td>
-                </tr> -->
+                </tr>
             </tbody>
         </table>
 
