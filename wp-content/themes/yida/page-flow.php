@@ -119,7 +119,7 @@
                 <tr>
                     <td></td>
                     <td class="pt-3 pb-5">
-                        <img class="footer-grey-img" src="<?php echo 
+                        <img src="<?php echo 
 get_template_directory_uri().'/images/step-1.png'; ?>">
 
                     </td>
