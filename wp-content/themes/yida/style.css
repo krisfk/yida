@@ -258,6 +258,7 @@ a:hover {
     max-width: 969px;
     width: 100%;
     text-align: center;
+    line-height: normal;
 }
 
 .flow-step-div img {
@@ -268,11 +269,10 @@ a:hover {
     font-weight: bold;
     color: #325918;
     font-size: 40px;
-    line-height: 46px;
 }
 
 .txt_under_num {
-    line-height: normal;
+    /* line-height: normal; */
 }
 
 @media only screen and (max-width: 1920px) {}
