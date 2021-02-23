@@ -107,6 +107,24 @@
         </table>
 
 
+        <table class="content-table">
+            <tbody>
+                <tr>
+                    <td class="subtitle-bar-td">
+                        <div class="subtitle-bar"></div>
+                    </td>
+                    <td class="mb-5">
+                        <h3 class="subtitle">相片</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="pt-3 pb-5">XXXX</td>
+                </tr>
+            </tbody>
+        </table>
+
+
 
 
 
