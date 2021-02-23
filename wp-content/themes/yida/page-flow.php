@@ -126,7 +126,7 @@
                                 <div class="col-12"><img src="<?php echo 
 get_template_directory_uri().'/images/step-1.png'; ?>"></div>
                             </div>
-                            <div class="row">
+                            <div class="row g-0">
 
                                 <div class="col step-col step-col-1">
                                     <div class="num"> 01</div>
