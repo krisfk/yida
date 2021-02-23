@@ -120,11 +120,13 @@
                     <td></td>
                     <td class="pt-3 pb-5">
 
-                        <div class="row">
-                            <div class="col-12"><img src="<?php echo 
-get_template_directory_uri().'/images/step-1.png'; ?>"></div>
-                        </div>
+                        <div class="container-fluid">
 
+                            <div class="row">
+                                <div class="col-12"><img src="<?php echo 
+get_template_directory_uri().'/images/step-1.png'; ?>"></div>
+                            </div>
+                        </div>
 
 
 
