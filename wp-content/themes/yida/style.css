@@ -274,6 +274,7 @@ a:hover {
 .txt_under_num {
     /* line-height: normal; */
     font-size: 18px;
+    letter-spacing: normal;
 }
 
 .step-col {
