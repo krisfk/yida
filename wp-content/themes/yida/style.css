@@ -269,6 +269,10 @@ a:hover {
     color: #325918;
 }
 
+.txt_under_num {
+    line-height: normal;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}

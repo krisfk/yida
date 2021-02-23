@@ -130,24 +130,24 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
 
                                 <div class="col">
                                     <div class="num"> 01</div>
-                                    <div>現場洽談</div>
+                                    <div class="txt_under_num">現場洽談</div>
                                 </div>
                                 <div class="col">
                                     <div class="num"> 02</div>
-                                    <div>快速報價</div>
+                                    <div class="txt_under_num">快速報價</div>
                                 </div>
                                 <div class="col">
                                     <div class="num"> 03</div>
-                                    <div>經相議後<br>
+                                    <div class="txt_under_num">經相議後<br>
                                         雙方簽訂合約</div>
                                 </div>
                                 <div class="col">
                                     <div class="num"> 04</div>
-                                    <div>工程展開</div>
+                                    <div class="txt_under_num">工程展開</div>
                                 </div>
                                 <div class="col">
                                     <div class="num"> 05</div>
-                                    <div>來去水工程</div>
+                                    <div class="txt_under_num">來去水工程</div>
 
                                 </div>
 
