@@ -122,8 +122,8 @@
                     <td class="pt-3 pb-5">
                         <!-- fdsf -->
                         <?php
-                        the_content();
-                        echo 333;
+                        // the_content();
+                        
                 //    echo  do_shortcode('[woowgallery id="16"]');
                     ?>
 
