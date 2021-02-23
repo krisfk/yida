@@ -275,6 +275,7 @@ a:hover {
     /* line-height: normal; */
     font-size: 18px;
     letter-spacing: normal;
+    margin: 0 0 5px 0;
 }
 
 .step-col {
