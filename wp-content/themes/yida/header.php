@@ -691,7 +691,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                             <a href="<?php echo get_site_url();?>" aria-current="page">主頁<span></span></a>
                         </li>
                         <li id="menu-item-809"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home   page_item page-item-68  menu-item-809">
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo $slug=='showcase' ?  'current-menu-item' :'';?> page_item page-item-68  menu-item-809">
                             <a href="#" aria-current="page">工程案例<span></span></a>
                         </li>
                         <li id="menu-item-809"
