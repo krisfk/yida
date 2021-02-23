@@ -682,14 +682,16 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 <a href="#" id="js-menu-button" class="p-menu-button c-menu-button"></a>
                 <nav class="p-global-nav__container">
                     <?php
-				//echo get_slug();?>
+					 global $post;
+					 $slug = $post->post_name;
+					 ?>
                     <ul id="js-global-nav" class="p-global-nav">
                         <li id="menu-item-809"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo is_home() ?  'current-menu-item' :'';?> page_item page-item-68  menu-item-809">
                             <a href="#" aria-current="page">主頁<span></span></a>
                         </li>
                         <li id="menu-item-809"
-                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home  page_item page-item-68  menu-item-809">
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo $slug=='flow' ?  'current-menu-item' :'';?>  page_item page-item-68  menu-item-809">
                             <a href="#" aria-current="page">工程案例<span></span></a>
                         </li>
                         <li id="menu-item-809"
