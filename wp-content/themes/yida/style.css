@@ -344,6 +344,20 @@ a:hover {
         text-align: center;
         line-height: normal;
     }
+    .flow-step-div {
+        padding: 0 !important;
+    }
+    .flow-step-div .num {
+        font-size: 15px;
+    }
+    .flow-step-div .txt_under_num {
+        font-size: 11px;
+        padding: 0 5px;
+        letter-spacing: 2px;
+    }
+    .flow-step-div .txt_under_num br {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 480px) {
