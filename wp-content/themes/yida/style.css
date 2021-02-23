@@ -254,6 +254,10 @@ a:hover {
     display: none;
 }
 
+.flow-step-div {
+    max-width: 969px;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
