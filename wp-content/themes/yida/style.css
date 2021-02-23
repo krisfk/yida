@@ -352,6 +352,7 @@ a:hover {
     }
     .flow-step-div .txt_under_num {
         font-size: 11px;
+        padding: 0 4px;
     }
     .flow-step-div .txt_under_num br {
         display: none;
