@@ -688,7 +688,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     <ul id="js-global-nav" class="p-global-nav">
                         <li id="menu-item-809"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo is_home() ?  'current-menu-item' :'';?> page_item page-item-68  menu-item-809">
-                            <a href="#" aria-current="page">主頁<span></span></a>
+                            <a href="<?php echo get_site_url();?>" aria-current="page">主頁<span></span></a>
                         </li>
                         <li id="menu-item-809"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home   page_item page-item-68  menu-item-809">
@@ -696,7 +696,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                         </li>
                         <li id="menu-item-809"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home <?php echo $slug=='flow' ?  'current-menu-item' :'';?>  page_item page-item-68  menu-item-809">
-                            <a href="#" aria-current="page">裝修流程<span></span></a>
+                            <a href="<?php echo get_site_url();?>/flow" aria-current="page">裝修流程<span></span></a>
                         </li>
                         <li id="menu-item-809"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-68  menu-item-809">
