@@ -665,14 +665,14 @@ get_template_directory_uri().'/style.css'; ?>' type='text/css' media='all' />
         <div class="l-header__bar p-header__bar">
             <div class="p-header__bar__inner l-inner">
                 <h1 class="p-logo p-header__logo">
-                    <a href="https://design-halue.com/">
+                    <a href="<?php echo get_site_url();?>">
 
                         <img class="yida-logo" src="<?php echo 
 get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     </a>
                 </h1>
                 <div class="p-logo p-header__logo--mobile">
-                    <a href="https://design-halue.com/">
+                    <a href="<?php echo get_site_url();?>">
 
 
                         <img class="yida-logo" src="<?php echo 
