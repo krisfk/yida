@@ -267,6 +267,7 @@ a:hover {
 .flow-step-div .num {
     font-weight: bold;
     color: #325918;
+    font-size: 40px;
 }
 
 .txt_under_num {
