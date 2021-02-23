@@ -657,7 +657,7 @@ get_template_directory_uri().'/style.css'; ?>' type='text/css' media='all' />
 </head>
 
 <body class="home page-template-default page page-id-68 l-header__fix elementor-default elementor-kit-820">
-    test
+
 
     <header id="js-header" class="l-header">
 
