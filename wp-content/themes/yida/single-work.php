@@ -105,7 +105,7 @@ $(function() {
 
     $("a[rel^='prettyPhoto']").prettyPhoto({
         social_tools: false,
-        theme: 'pp_default',
+        theme: 'light_rounded',
         allow_resize: true,
         /* Resize the photos bigger than viewport. true/false */
 
