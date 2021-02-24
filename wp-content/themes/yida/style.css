@@ -315,10 +315,15 @@ a:hover {
     width: auto;
 }
 
-#fullResImage,
-div.pp_pic_holder {
-    max-width: 70% !important;
+#fullResImage {
+    /* max-width: 70% !important; */
     height: auto;
+    width: 100%;
+}
+
+div.pp_pic_holder {
+    width: 825px !important;
+    position: relative;
 }
 
 @media only screen and (max-width: 1920px) {}
