@@ -199,7 +199,7 @@ a:hover {
     position: absolute;
     top: -47px;
     display: table;
-    z-index: 300;
+    z-index: 600;
 }
 
 .portfolio-filter-ul li {
@@ -387,7 +387,7 @@ div.pp_pic_holder {
     left: 0;
     height: 63px;
     width: 100%;
-    z-index: 100;
+    z-index: 500;
 }
 
 .p-index-slider .slick-dots {
@@ -398,7 +398,7 @@ div.pp_pic_holder {
     position: relative;
     bottom: 36px;
     right: 0;
-    z-index: 5;
+    z-index: 600;
 }
 
 @media only screen and (max-width: 1920px) {}
