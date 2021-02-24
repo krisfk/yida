@@ -103,6 +103,19 @@
 
 <script type="text/javascript">
 var $ = jQuery;
+
+
+$.fn.isInViewport = function() {
+    var elementTop = $(this).offset().top;
+    var elementBottom = elementTop + $(this).outerHeight();
+
+    var viewportTop = $(window).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+
+    return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
+
 $(function() {
 
     $('.gallery-container').magnificPopup({
@@ -149,6 +162,18 @@ $(function() {
         //.addClass('animate');
     }
     // $('..work-photo-a')
+
+
+
+
+    $(window).on('resize scroll', function() {
+        if ($('.gallery-container').isInViewport()) {
+            console.log('in viewport');
+        } else {
+            console.log('not in viewport');
+        }
+    });
+
 
 
 })
