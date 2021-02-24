@@ -99,6 +99,7 @@
 </main>
 
 <script type="text/javascript">
+var $ = jQuery;
 $(function() {
 
 
