@@ -77,7 +77,7 @@
 
                             ?>
 
-                        <a href="javascript:void(0);" class="work-photo-a"><img src="<?php echo $img_url_full;?>"
+                        <a href="javascript:void(0);" class="work-photo-a"><img src="<?php echo $img_url_thumb;?>"
                                 alt=""></a>
                         <?php
                             // echo $img_url.'<br/>';
