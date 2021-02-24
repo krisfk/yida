@@ -321,7 +321,8 @@ a:hover {
     width: 100%;
 }
 
-div.pp_pic_holder {
+div.pp_pic_holder,
+div.pp_default .pp_content {
     width: 825px !important;
     position: relative;
 }
