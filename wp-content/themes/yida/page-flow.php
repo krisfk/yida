@@ -11,7 +11,12 @@
                     </div>
                     <div class="p-index-slider__item-image">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_01.jpg" alt="">
+                        <?php
+                    $img_id = get_field( "banner" );
+                    $img_arr =wp_get_attachment_image_src($img_id,'full');
+                    $img_url = $img_arr[0];
+                    ?>
+                        <img src="<?php echo $img_url;?>" alt="">
                     </div>
                 </div>
 
