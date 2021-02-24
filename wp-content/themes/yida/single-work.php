@@ -61,8 +61,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td class="pt-3 pb-5">
+                    <!-- <td></td> -->
+                    <td colspan="2" class="pt-3 pb-5">
                         <?php
                     $img_id_arr=get_field('photo_gallery');
                         
