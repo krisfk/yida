@@ -143,7 +143,7 @@ $(function() {
 
 
     for (i = 0; i < $('.work-photo-a').length; i++) {
-        $('.work-photo-a').eq(i).delay(100 * i).queue(function(next) {
+        $('.work-photo-a').eq(i).delay(50 * i).queue(function(next) {
             $(this).addClass('animate');
             //   $(this).remove();
             //   next();
