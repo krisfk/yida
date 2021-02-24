@@ -158,7 +158,7 @@ while ( $the_query->have_posts() ) :
     $img_url = $img_arr[0];
     echo '  <div class="col-lg-6 mb-4">
 
-    <a href="javascript:void(0);">
+    <a href="'.get_permalink().'">
 
         <div class="caption">'.get_the_title().'</div>
         <img class="w-100" src="'.$img_url.'" alt="">
