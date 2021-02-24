@@ -21,7 +21,7 @@
                             
                             ?>
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
+                <div href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
                         </div>
@@ -30,7 +30,7 @@
 
                         <img src="<?php echo $img_url; ?>" alt="">
                     </div>
-                </a>
+                </div>
 
             </div>
             <?php
@@ -60,7 +60,7 @@
                             
                             ?>
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
+                <div href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
                         </div>
@@ -69,7 +69,7 @@
 
                         <img src="<?php echo $img_url; ?>" alt="">
                     </div>
-                </a>
+                </div>
 
             </div>
             <?php
