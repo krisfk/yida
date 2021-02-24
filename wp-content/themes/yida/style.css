@@ -456,4 +456,8 @@ div.pp_pic_holder {
         width: 100%;
         height: auto;
     }
+    .mfp-arrow-left {
+        left: 0;
+        margin-top: -40px;
+    }
 }
