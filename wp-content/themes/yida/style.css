@@ -450,6 +450,7 @@ div.pp_pic_holder {
     .work-photo-a {
         float: none;
         width: 100%;
+        display: inline-block;
     }
     .work-photo-a img {
         width: 100%;
