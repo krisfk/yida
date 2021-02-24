@@ -77,7 +77,8 @@
 
                             ?>
 
-                        <a href="javascript:void(0);"><img src="<?php echo $img_url_thumb;?>" alt=""></a>
+                        <a href="javascript:void(0);" class="work-photo-a"><img src="<?php echo $img_url_thumb;?>"
+                                alt=""></a>
                         <?php
                             // echo $img_url.'<br/>';
                             // echo get_field('photo_gallery');
