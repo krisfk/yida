@@ -70,7 +70,7 @@
                         {
                          
                             
-                            $img_arr =wp_get_attachment_image_src($img_id_arr[$i],'full');
+                            $img_arr =wp_get_attachment_image_src($img_id_arr[$i],'medium');
                             $img_url = $img_arr[0];
 
                             echo $img_url.'<br/>';
