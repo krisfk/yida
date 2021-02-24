@@ -305,10 +305,13 @@ a:hover {
     background: #ededed;
 }
 
-.work-photo-a {}
+.work-photo-a {
+    float: left;
+    margin: 0 10px 10px 0;
+}
 
 .work-photo-a img {
-    height: 30px;
+    height: 200px;
     width: auto;
 }
 
