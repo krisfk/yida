@@ -1,7 +1,7 @@
 <?php get_header();?>
 <main class="l-main">
 
-    <?php echo get_field('home_banners_delicate_work');?>
+    <?php print_r(get_field('home_banners_delicate_work'));?>
     <div class="slide-container">
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
 
