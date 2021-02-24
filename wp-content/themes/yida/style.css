@@ -447,4 +447,7 @@ div.pp_pic_holder {
     .portfolio-thumbnail a .caption {
         font-size: 18px;
     }
+    .work-photo-a {
+        float: none;
+    }
 }
