@@ -1,9 +1,5 @@
 <?php get_header();?>
-<main class="l-main">
-
-    <div class="slide-container">
-
-        <?php
+<?php
         $work_id_arr = get_field('home_banners_delicate_work');
 
         for($i=0;$i<count($work_id_arr);$i++)
@@ -14,6 +10,11 @@
         }
 
         ?>
+<main class="l-main">
+
+    <div class="slide-container">
+
+
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
 
 
