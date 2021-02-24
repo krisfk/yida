@@ -103,6 +103,7 @@
 
 $the_query = new WP_Query( array(
     'post_type' => 'work',
+    'orderby' => 'menu_order',
     'tax_query' => array(
         array (
             'taxonomy' => 'work_type',
