@@ -114,7 +114,6 @@ $the_query = new WP_Query( array(
 
 while ( $the_query->have_posts() ) :
     $the_query->the_post();
-    echo 1;
     $img_id = get_field('small_rectangle_image');
     $img_arr =wp_get_attachment_image_src($img_id,'full');
     $img_url = $img_arr[0];
