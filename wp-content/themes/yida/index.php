@@ -126,7 +126,7 @@ while ( $the_query->have_posts() ) :
 
             </div>';
 
-            echo print_r(get_field('photo_gallery'));
+            // echo print_r(get_field('photo_gallery'));
             endwhile;
 
             ?>
