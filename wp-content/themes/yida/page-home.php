@@ -9,19 +9,19 @@
 
 
             <?php
-        $work_id_arr = get_field('home_banners_delicate_work');
+                        $work_id_arr = get_field('home_banners_delicate_work');
 
-        for($i=0;$i<count($work_id_arr);$i++)
-        {
+                        for($i=0;$i<count($work_id_arr);$i++)
+                        {
 
-            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
-            $img_arr =wp_get_attachment_image_src($img_id,'full');
-            $img_url = $img_arr[0];
-            $work_link = get_permalink($work_id_arr[$i]);
-            
-            ?>
+                            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
+                            $img_arr =wp_get_attachment_image_src($img_id,'full');
+                            $img_url = $img_arr[0];
+                            $work_link = get_permalink($work_id_arr[$i]);
+                            
+                            ?>
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
+                <a href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
                         </div>
@@ -34,9 +34,9 @@
 
             </div>
             <?php
-        }
+                        }
 
-        ?>
+                        ?>
 
 
 
@@ -45,43 +45,37 @@
 
 
         <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
+
+            <?php
+                        $work_id_arr = get_field('home_banners_practical_work');
+
+                        for($i=0;$i<count($work_id_arr);$i++)
+                        {
+
+                            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
+                            $img_arr =wp_get_attachment_image_src($img_id,'full');
+                            $img_url = $img_arr[0];
+                            $work_link = get_permalink($work_id_arr[$i]);
+                            
+                            ?>
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
+                <a href="<?php echo $work_link;?>" class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
                         <div class="p-index-slider__item-content__inner l-inner">
                         </div>
                     </div>
                     <div class="p-index-slider__item-image">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
+                        <img src="<?php echo $img_url; ?>" alt="">
                     </div>
                 </a>
 
             </div>
-            <div class="p-index-slider__item p-index-slider__item--2 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
+            <?php
+                        }
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
-                    </div>
-                </a>
-            </div>
-            <div class="p-index-slider__item p-index-slider__item--3 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
+                        ?>
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
-                    </div>
-                </a>
-            </div>
         </div>
     </div>
 
