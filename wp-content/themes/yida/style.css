@@ -454,5 +454,6 @@ div.pp_pic_holder {
     }
     .work-photo-a img {
         width: 100%;
+        height: auto;
     }
 }
