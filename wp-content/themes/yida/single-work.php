@@ -63,11 +63,12 @@
                 <tr>
                     <!-- <td></td> -->
                     <td colspan="2" class="pt-3 pb-5">
-                        <div>
-                            <div>
-                                <?php
+
+                        <div class="gallery-container">
+                            <?php
                     $img_id_arr=get_field('photo_gallery');
                         
+
                     for($i=0;$i<count($img_id_arr);$i++)
                         {
                          
@@ -79,16 +80,14 @@
 
                             ?>
 
-                                <a rel="prettyPhoto[]" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
-                                        src="<?php echo $img_url_thumb;?>" alt=""></a>
-                                <?php
-                            // echo $img_url.'<br/>';
-                            // echo get_field('photo_gallery');
-                       
+                            <a href="<?php echo $img_url_full ?>" class="work-photo-a"><img
+                                    src="<?php echo $img_url_thumb;?>" alt=""></a>
+                            <?php
+                         
                         }
                     ?>
-                            </div>
                         </div>
+
 
                     </td>
                 </tr>
@@ -106,20 +105,11 @@
 var $ = jQuery;
 $(function() {
 
-
-    $("a[rel^='prettyPhoto']").prettyPhoto({
-        social_tools: false,
-        // allow_resize: true,
-        allow_resize: true,
-        /* Resize the photos bigger than viewport. true/false */
-        default_width: 500,
-        default_height: 344,
-
-        /* Resize the photos bigger than viewport. true/false */
-
-
+    $('.gallery-container').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
     });
-
 
 
 })
