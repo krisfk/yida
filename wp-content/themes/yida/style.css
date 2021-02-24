@@ -195,7 +195,9 @@ a:hover {
     background: #dddddd;
 }
 
-.portfolio-filter-ul {
+.portfolio-filter-ul {}
+
+.home .portfolio-filter-ul {
     position: absolute;
     top: -47px;
     display: table;
