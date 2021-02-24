@@ -670,6 +670,10 @@ get_template_directory_uri().'/magnific-popup.css'; ?>">
     <script type="text/javascript" src="<?php echo 
 get_template_directory_uri().'/jquery.magnific-popup.js'; ?>"></script>
 
+    <script type="text/javascript" src="<?php echo 
+get_template_directory_uri().'/common.js'; ?>"></script>
+
+
 </head>
 
 <body class="home page-template-default page page-id-68 l-header__fix elementor-default elementor-kit-820">
