@@ -129,30 +129,7 @@ while ( $the_query->have_posts() ) :
 
             ?>
 
-                <!-- <div class="col-lg-6 mb-4">
 
-
-                    <a href="javascript:void(0);">
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-2.jpg'; ?>" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6 mb-4">
-
-
-                    <a href="javascript:void(0);">
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-3.jpg'; ?>" alt="">
-                    </a>
-                </div>
-                <div class="col-lg-6 mb-4">
-
-
-                    <a href="javascript:void(0);">
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
-                    </a>
-                </div> -->
 
             </div>
         </div>
@@ -162,7 +139,45 @@ get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
 
             <div class="row">
 
-                <div class="col-lg-6 mb-4">
+
+
+                <?php
+
+$the_query = new WP_Query( array(
+    'post_type' => 'work',
+    'orderby' => 'menu_order',
+    'tax_query' => array(
+        array (
+            'taxonomy' => 'work_type',
+            'field' => 'slug',
+            'terms' => 'practical-work',
+        )
+    ),
+) );
+
+while ( $the_query->have_posts() ) :
+    $the_query->the_post();
+    $img_id = get_field('small_rectangle_image');
+    $img_arr =wp_get_attachment_image_src($img_id,'full');
+    $img_url = $img_arr[0];
+    echo '  <div class="col-lg-6 mb-4">
+
+    <a href="javascript:void(0);">
+
+        <div class="caption">'.get_the_title().'</div>
+        <img class="w-100" src="'.$img_url.'" alt="">
+    </a>
+
+</div>';
+            endwhile;
+
+            ?>
+
+
+
+
+
+                <!-- <div class="col-lg-6 mb-4">
 
                     <a href="javascript:void(0);">
 
@@ -191,17 +206,7 @@ get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
 get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
                     </a>
 
-                </div>
-                <div class="col-lg-6 mb-4">
-
-                    <a href="javascript:void(0);">
-
-                        <div class="caption">The Rednaxela 帝華臺</div>
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
-                    </a>
-
-                </div>
+                </div> -->
 
             </div>
         </div>
