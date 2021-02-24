@@ -1,4 +1,6 @@
 <?php get_header();?>
+
+
 <main class="l-main">
 
     <!-- <div class="slide-container">
@@ -84,6 +86,10 @@
             </div>
         </div>
     </div> -->
+
+
+    <p id="breadcrumbs"><span><span><a href="https://design-halue.com/"><i class="fas fa-home"></i></a> &nbsp;&gt;&nbsp;
+                <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
 
 
     <div class="l-inner">
