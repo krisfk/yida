@@ -117,20 +117,18 @@ while ( $the_query->have_posts() ) :
     // echo 1;
     $img_id = get_field('small_rectangle_image');
     $img_arr =wp_get_attachment_image_src($img_id,'full');
-    print_r($img_arr);
-    // echo $img_url[0] .'<br>';
-    // Show Posts ...
-endwhile;
+    $img_url = $img_arr[0];
+    echo ' <div class="col-lg-6 mb-4">
 
-?>
-                <div class="col-lg-6 mb-4">
+    <a href="javascript:void(0);">
+        <img class="w-100" src="'.$img_url.'" alt="">
+                </a>
 
-                    <a href="javascript:void(0);">
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-1.jpg'; ?>" alt="">
-                    </a>
+            </div>';
+            endwhile;
 
-                </div>
+            ?>
+
                 <!-- <div class="col-lg-6 mb-4">
 
 
