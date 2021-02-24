@@ -641,7 +641,7 @@ add_filter( 'jpeg_quality', function( $arg ) {
 
 
 function sort_work_columns ($columns){
-	$columns["Work Type"] = "Work Type";
+	$columns["work_type"] = "work_type";
 	// $columns["LastName"] = "LastName";
 	  return $columns;
   }
