@@ -71,9 +71,15 @@
                          
                             
                             $img_arr =wp_get_attachment_image_src($img_id_arr[$i],'medium');
-                            $img_url = $img_arr[0];
+                            $img_url_thumb = $img_arr[0];
+                            $img_arr =wp_get_attachment_image_src($img_id_arr[$i],'full');
+                            $img_url_full = $img_arr[0];
 
-                            echo $img_url.'<br/>';
+                            ?>
+
+                        <a href="javascript:void(0);"><img src="<?php echo $img_url_thumb;?>" alt=""></a>
+                        <?php
+                            // echo $img_url.'<br/>';
                             // echo get_field('photo_gallery');
                        
                         }
