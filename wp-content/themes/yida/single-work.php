@@ -107,7 +107,12 @@ $(function() {
 
     $('.gallery-container').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
-        type: 'image'
+        type: 'image',
+        gallery: {
+            tPrev: 'Previous (Left arrow key)',
+            tNext: 'Next (Right arrow key)',
+            tCounter: '%curr% of %total%'
+        },
         // other options
     });
 
