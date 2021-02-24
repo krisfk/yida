@@ -309,7 +309,7 @@ a:hover {
     float: left;
     margin: 0 10px 10px 0;
     transform: scale(0);
-    transition: 3s all;
+    transition: 0.2s all;
 }
 
 .work-photo-a.animate {
