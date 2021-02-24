@@ -640,9 +640,11 @@ add_filter( 'jpeg_quality', function( $arg ) {
 });
 
 function init_managesortablecolumns (){
-    $post_types = get_post_types();
-    foreach( $post_types as $post_type ){
-        add_filter( 'manage_edit-' . $post_type . '_sortable_columns', 'managesortablecolumns' );
-    }
+    // $post_types = get_post_types();
+    // foreach( $post_types as $post_type ){
+		echo 111;
+		exit;
+        // add_filter( 'manage_edit-' . $post_type . '_sortable_columns', 'managesortablecolumns' );
+    // }
 }
 add_action( 'init', 'init_managesortablecolumns' );
