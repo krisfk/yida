@@ -1,7 +1,7 @@
 <?php get_header();?>
 <main class="l-main">
 
-    <div class="slide-container">
+    <!-- <div class="slide-container">
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <a href="javascript:void(0);" class="p-index-slider__item__inner">
@@ -83,7 +83,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <div class="l-inner">
