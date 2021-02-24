@@ -114,7 +114,8 @@ $the_query = new WP_Query( array(
 
 while ( $the_query->have_posts() ) :
     $the_query->the_post();
-    echo 1;
+    // echo 1;
+    echo get_field('small_rectangle_image');
     // Show Posts ...
 endwhile;
 
