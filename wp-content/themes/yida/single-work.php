@@ -44,7 +44,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="pt-3 pb-5">XXXX</td>
+                    <td class="pt-3 pb-5">XXXXXXX</td>
                 </tr>
             </tbody>
         </table>
@@ -63,11 +63,9 @@
                 <tr>
                     <td></td>
                     <td class="pt-3 pb-5">
-                        <!-- fdsf -->
                         <?php
-                        the_content();
-                        
-                //    echo  do_shortcode('[woowgallery id="16"]');
+
+                        echo get_field('photo_gallery');
                     ?>
 
                     </td>
