@@ -104,7 +104,7 @@ $(function() {
 
 
     $("a[rel^='prettyPhoto']").prettyPhoto({
-        theme: 'minimal'
+        // theme: 'minimal'
     });
 
 
