@@ -103,9 +103,10 @@ var $ = jQuery;
 $(function() {
 
 
-    $("a[rel^='prettyPhoto']").prettyPhoto();
-    //.fadeOut(0);
-    // /    .prettyPhoto();
+    $("a[rel^='prettyPhoto']").prettyPhoto({
+        theme: 'minimal'
+    });
+
 
 
 })
