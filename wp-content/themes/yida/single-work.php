@@ -120,9 +120,7 @@ $(function() {
                     tPrev: 'Previous (Left arrow key)', // title for left button
                     tNext: 'Next (Right arrow key)', // title for right button
                     tCounter: '<span class="mfp-counter">%curr% of %total%</span>' // markup of counter
-                },
-                mainClass: 'mfp-with-zoom', // this class is for CSS animation below
-
+                }
 
 
             })
