@@ -103,13 +103,13 @@
 
 $the_query = new WP_Query( array(
     'post_type' => 'work',
-    // 'tax_query' => array(
-    //     array (
-    //         'taxonomy' => 'advert_tag',
-    //         'field' => 'slug',
-    //         'terms' => 'politics',
-    //     )
-    // ),
+    'tax_query' => array(
+        array (
+            'taxonomy' => 'work_type',
+            'field' => 'slug',
+            'terms' => 'delicated-work',
+        )
+    ),
 ) );
 
 while ( $the_query->have_posts() ) :
