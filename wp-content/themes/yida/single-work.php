@@ -64,7 +64,8 @@
                     <!-- <td></td> -->
                     <td colspan="2" class="pt-3 pb-5">
                         <div>
-                            <?php
+                            <div>
+                                <?php
                     $img_id_arr=get_field('photo_gallery');
                         
                     for($i=0;$i<count($img_id_arr);$i++)
@@ -78,14 +79,15 @@
 
                             ?>
 
-                            <a rel="prettyPhoto[]" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
-                                    src="<?php echo $img_url_thumb;?>" alt=""></a>
-                            <?php
+                                <a rel="prettyPhoto[]" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
+                                        src="<?php echo $img_url_thumb;?>" alt=""></a>
+                                <?php
                             // echo $img_url.'<br/>';
                             // echo get_field('photo_gallery');
                        
                         }
                     ?>
+                            </div>
                         </div>
 
                     </td>
