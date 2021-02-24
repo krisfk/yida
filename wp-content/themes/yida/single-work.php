@@ -80,8 +80,10 @@
 
                             ?>
 
-                            <a href="<?php echo $img_url_full ?>" class="work-photo-a"><img
-                                    src="<?php echo $img_url_thumb;?>" alt=""></a>
+                            <a href="<?php echo $img_url_full ?>" class="work-photo-a">
+                                <div class="black"></div>
+                                <img src="<?php echo $img_url_thumb;?>" alt="">
+                            </a>
                             <?php
                          
                         }
