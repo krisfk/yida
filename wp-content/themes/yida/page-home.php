@@ -6,7 +6,6 @@
 
 
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
-            <div class="dots-cover"></div>
 
 
             <?php
