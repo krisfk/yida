@@ -102,7 +102,7 @@
                 <?php
 
 $the_query = new WP_Query( array(
-    'post_type' => 'works',
+    'post_type' => 'work',
     // 'tax_query' => array(
     //     array (
     //         'taxonomy' => 'advert_tag',
