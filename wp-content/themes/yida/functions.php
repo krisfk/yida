@@ -645,4 +645,4 @@ function sort_work_columns ($columns){
 	// $columns["LastName"] = "LastName";
 	  return $columns;
   }
-  add_filter('manage_works_sortable_columns', 'sort_work_columns'); // the hook
+  add_filter('manage_work_sortable_columns', 'sort_work_columns'); // the hook
