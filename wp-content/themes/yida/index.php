@@ -99,6 +99,26 @@
 
             <div class="row">
 
+                <?php
+
+$the_query = new WP_Query( array(
+    'post_type' => 'works',
+    // 'tax_query' => array(
+    //     array (
+    //         'taxonomy' => 'advert_tag',
+    //         'field' => 'slug',
+    //         'terms' => 'politics',
+    //     )
+    // ),
+) );
+
+while ( $the_query->have_posts() ) :
+    $the_query->the_post();
+    echo 1;
+    // Show Posts ...
+endwhile;
+
+?>
                 <div class="col-lg-6 mb-4">
 
                     <a href="javascript:void(0);">
