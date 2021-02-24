@@ -668,7 +668,7 @@ get_template_directory_uri().'/magnific-popup.css'; ?>">
 
     <!-- Magnific Popup core JS file -->
     <script type="text/javascript" src="<?php echo 
-get_template_directory_uri().'/jquery.magnific-popup'; ?>"></script>
+get_template_directory_uri().'/jquery.magnific-popup.js'; ?>"></script>
 
 </head>
 
