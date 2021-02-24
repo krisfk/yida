@@ -77,8 +77,8 @@
 
                             ?>
 
-                        <a href="javascript:void(0);" class="work-photo-a"><img src="<?php echo $img_url_thumb;?>"
-                                alt=""></a>
+                        <a ref="prettyPhoto" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
+                                src="<?php echo $img_url_thumb;?>" alt=""></a>
                         <?php
                             // echo $img_url.'<br/>';
                             // echo get_field('photo_gallery');
@@ -97,5 +97,15 @@
 
     </div>
 </main>
+
+<script type="text/javascript">
+$(function() {
+
+
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+
+
+})
+</script>
 <?php 
 get_footer();?>
