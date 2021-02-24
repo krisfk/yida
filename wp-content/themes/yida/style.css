@@ -319,6 +319,12 @@ a:hover {
     height: 100%;
     z-index: 10;
     background: rgba(0, 0, 0, 0.3);
+    transform: scale(0);
+    transition: 0.2s all;
+}
+
+.work-photo-a:hover .black {
+    transform: scale(0.9);
 }
 
 .work-photo-a.animate {
