@@ -315,7 +315,7 @@ a:hover {
     width: auto;
 }
 
-.pp_content_container {
+#fullResImage {
     max-width: 70% !important;
 }
 
