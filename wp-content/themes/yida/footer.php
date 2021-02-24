@@ -132,8 +132,8 @@ jQuery(function($) {
 
 
     var viewing_idx = 1;
-    $('.home-portfolio-filter-ul li a').click(function() {
-        $('.home-portfolio-filter-ul li a').removeClass('active');
+    $('.portfolio-filter-ul li a').click(function() {
+        $('.portfolio-filter-ul li a').removeClass('active');
         $(this).toggleClass('active');
 
         viewing_idx = $(this).parent('li').index() + 1;
