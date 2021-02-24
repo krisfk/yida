@@ -638,3 +638,11 @@ add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
+
+
+function sort_work_columns ($columns){
+	$columns["Work Type"] = "Work Type";
+	// $columns["LastName"] = "LastName";
+	  return $columns;
+  }
+  add_filter('manage_works_sortable_columns', 'sort_work_columns'); // the hook
