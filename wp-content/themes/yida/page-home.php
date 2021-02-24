@@ -1,17 +1,5 @@
 <?php get_header();?>
-<?php
-        $work_id_arr = get_field('home_banners_delicate_work');
 
-        for($i=0;$i<count($work_id_arr);$i++)
-        {
-
-            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
-            $img_arr =wp_get_attachment_image_src($img_id,'full');
-            $img_url = $img_arr[0];
-            echo $img_url;
-        }
-
-        ?>
 <main class="l-main">
 
     <div class="slide-container">
@@ -20,6 +8,18 @@
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
 
 
+            <?php
+        $work_id_arr = get_field('home_banners_delicate_work');
+
+        for($i=0;$i<count($work_id_arr);$i++)
+        {
+
+            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
+            $img_arr =wp_get_attachment_image_src($img_id,'full');
+            $img_url = $img_arr[0];
+            $work_link = get_permalink($work_id_arr[$i]);
+            
+            ?>
             <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
                 <a href="javascript:void(0);" class="p-index-slider__item__inner">
                     <div class="p-index-slider__item-content">
@@ -28,11 +28,18 @@
                     </div>
                     <div class="p-index-slider__item-image">
 
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_01.jpg" alt="">
+                        <img src="<?php echo $img_url; ?>" alt="">
                     </div>
                 </a>
 
             </div>
+            <?php
+        }
+
+        ?>
+
+
+
 
         </div>
 
