@@ -107,7 +107,10 @@ $(function() {
         social_tools: false,
         theme: 'light_rounded',
         allow_resize: true,
-        allow_expand: false
+        allow_expand: false,
+        horizontal_padding: 50,
+        vertical_padding: 50
+
         /* Resize the photos bigger than viewport. true/false */
 
 
