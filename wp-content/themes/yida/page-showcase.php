@@ -87,10 +87,11 @@
         </div>
     </div> -->
 
-
-    <p id="breadcrumbs"><span><span><a href="https://design-halue.com/"><i class="fas fa-home"></i></a> &nbsp;&gt;&nbsp;
-                <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
-
+    <div class="l-inner">
+        <p id="breadcrumbs"><span><span><a href="https://design-halue.com/"><i class="fas fa-home"></i></a>
+                    &nbsp;&gt;&nbsp;
+                    <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
+    </div>
 
     <div class="l-inner">
 
