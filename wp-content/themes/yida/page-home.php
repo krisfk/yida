@@ -4,9 +4,11 @@
 
         for($i=0;$i<count($work_id_arr);$i++)
         {
-            $work = get_post( $work_id_arr[$i] );
-            print_r($work);
-            // echo $work['post_title'];   
+
+            $img_id = get_field( "large_banner_image", $work_id_arr[$i] );
+            $img_arr =wp_get_attachment_image_src($img_id,'full');
+            $img_url = $img_arr[0];
+            echo $img_url;
         }
 
         ?>
