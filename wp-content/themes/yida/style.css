@@ -195,21 +195,21 @@ a:hover {
     background: #dddddd;
 }
 
-.home-portfolio-filter-ul {
+.portfolio-filter-ul {
     position: absolute;
     top: -47px;
     display: table;
     z-index: 300;
 }
 
-.home-portfolio-filter-ul li {
+.portfolio-filter-ul li {
     display: inline-block;
     /* width: 146px; */
     text-align: center;
 }
 
 
-/* .home-portfolio-filter-ul li a.active {
+/* .portfolio-filter-ul li a.active {
     padding: 23px 30px;
     background: #fff;
     line-height: 1.6;
@@ -217,7 +217,7 @@ a:hover {
     text-decoration: none;
 }
 
-.home-portfolio-filter-ul li a {
+.portfolio-filter-ul li a {
     padding: 23px 30px;
     background: #538c2f;
     color: #fff;
@@ -225,7 +225,7 @@ a:hover {
     line-height: 1.6;
 } */
 
-.home-portfolio-filter-ul li a.active {
+.portfolio-filter-ul li a.active {
     padding: 23px 30px;
     background: #538c2f;
     color: #fff;
@@ -233,7 +233,7 @@ a:hover {
     line-height: 1.6;
 }
 
-.home-portfolio-filter-ul li a {
+.portfolio-filter-ul li a {
     padding: 23px 30px;
     background: #fff;
     line-height: 1.6;
@@ -241,12 +241,12 @@ a:hover {
     text-decoration: none;
 }
 
-.home-portfolio-filter-ul li a .arrow {
+.portfolio-filter-ul li a .arrow {
     /* display: inline-block; */
     display: none;
 }
 
-.home-portfolio-filter-ul li a.active .arrow {
+.portfolio-filter-ul li a.active .arrow {
     display: none;
 }
 
