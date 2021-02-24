@@ -103,7 +103,8 @@ var $ = jQuery;
 $(function() {
 
 
-    $("a[rel^='prettyPhoto']").prettyPhoto();
+    $("a[rel^='prettyPhoto']").fadeOut(0);
+    // /    .prettyPhoto();
 
 
 })
