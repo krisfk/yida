@@ -8,7 +8,8 @@
 
         for($i=0;$i<count($work_id_arr);$i++)
         {
-            $work = get_post( $work_id_arr[$i] ); 
+            $work = get_post( $work_id_arr[$i] );
+            print_r($work);
             // echo $work['post_title'];   
         }
 
