@@ -639,10 +639,10 @@ add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
 
-
-function sort_work_columns ($columns){
-	$columns["work_type"] = "work_type";
-	// $columns["LastName"] = "LastName";
-	  return $columns;
-  }
-  add_filter('manage_work_sortable_columns', 'sort_work_columns'); // the hook
+function init_managesortablecolumns (){
+    $post_types = get_post_types();
+    foreach( $post_types as $post_type ){
+        add_filter( 'manage_edit-' . $post_type . '_sortable_columns', 'managesortablecolumns' );
+    }
+}
+add_action( 'init', 'init_managesortablecolumns' );
