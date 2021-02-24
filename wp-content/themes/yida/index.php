@@ -116,7 +116,7 @@ while ( $the_query->have_posts() ) :
     $the_query->the_post();
     // echo 1;
     $img_id = get_field('small_rectangle_image');
-    $img_arr =wp_get_attachment_image_src($img_id);
+    $img_arr =wp_get_attachment_image_src($img_id,'full');
     print_r($img_arr);
     // echo $img_url[0] .'<br>';
     // Show Posts ...
