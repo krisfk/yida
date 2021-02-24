@@ -386,6 +386,17 @@ div.pp_pic_holder {
     bottom: 0%;
 }
 
+.p-index-slider .slick-dots {
+    height: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 88.8888%;
+    position: relative;
+    bottom: 36px;
+    right: 0;
+    z-index: 5;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
