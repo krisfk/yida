@@ -77,7 +77,7 @@
 
                             ?>
 
-                        <a ref="prettyPhoto" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
+                        <a rel="prettyPhoto" href="<?php echo $img_url_full ?>" class="work-photo-a"><img
                                 src="<?php echo $img_url_thumb;?>" alt=""></a>
                         <?php
                             // echo $img_url.'<br/>';
