@@ -64,8 +64,19 @@
                     <td></td>
                     <td class="pt-3 pb-5">
                         <?php
+                    $img_id_arr=get_field('photo_gallery');
+                        
+                    for($i=0;$i<count($img_id_arr);$i++)
+                        {
+                         
+                            
+                            $img_arr =wp_get_attachment_image_src($img_id_arr[$i],'full');
+                            $img_url = $img_arr[0];
 
-                        echo get_field('photo_gallery');
+                            echo $img_url.'<br/>';
+                            // echo get_field('photo_gallery');
+                       
+                        }
                     ?>
 
                     </td>
