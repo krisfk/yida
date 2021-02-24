@@ -449,5 +449,9 @@ div.pp_pic_holder {
     }
     .work-photo-a {
         float: none;
+        width: 100%;
+    }
+    .work-photo-a img {
+        width: 100%;
     }
 }
