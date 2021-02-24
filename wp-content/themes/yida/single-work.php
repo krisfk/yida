@@ -12,7 +12,7 @@
                     <div class="p-index-slider__item-image">
 
                         <?php
-                    $img_id = get_field( "banner" );
+                    $img_id = get_field( "large_banner_image" );
                     $img_arr =wp_get_attachment_image_src($img_id,'full');
                     $img_url = $img_arr[0];
                     ?>
