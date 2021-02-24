@@ -143,7 +143,11 @@ $(function() {
 
 
     for (i = 0; i < $('.work-photo-a').length; i++) {
-        $('.work-photo-a').eq(i).delay(1000 * i);
+        $('.work-photo-a').eq(i).delay(1000 * i).queue(function(next) {
+            $(this).addClass('animate');
+            //   $(this).remove();
+            //   next();
+        });;
         //.addClass('animate');
     }
     // $('..work-photo-a')
