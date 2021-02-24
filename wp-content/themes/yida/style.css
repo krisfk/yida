@@ -308,6 +308,12 @@ a:hover {
 .work-photo-a {
     float: left;
     margin: 0 10px 10px 0;
+    transform: scale(0);
+    transition: 3s all;
+}
+
+.work-photo-a.animate {
+    transform: scale(1);
 }
 
 .work-photo-a img {

@@ -142,6 +142,12 @@ $(function() {
     });
 
 
+    for (i = 0; i < $('.work-photo-a').length; i++) {
+        $('.work-photo-a').addClass('animate');
+    }
+    // $('..work-photo-a')
+
+
 })
 </script>
 <?php 
