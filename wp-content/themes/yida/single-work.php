@@ -156,10 +156,11 @@ $(function() {
 
 
     $(window).on('resize scroll', function() {
-        if ($('.gallery-container').isInViewport()) {
+        if ($('.gallery-container').isInViewport() && !$('.gallery-container').hasClass('animate')) {
+            $('.gallery-container').addClass('animate');
             console.log('in viewport');
         } else {
-            console.log('not in viewport');
+            // console.log('not in viewport');
         }
     });
 
