@@ -639,12 +639,12 @@ add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
 
-function init_managesortablecolumns (){
-    // $post_types = get_post_types();
-    // foreach( $post_types as $post_type ){
-		// echo 111;
-		// exit;
-        add_filter( 'manage_edit-work_sortable_columns', 'managesortablecolumns' );
-    // }
-}
-add_action( 'init', 'init_managesortablecolumns' );
+// function init_managesortablecolumns (){
+//     // $post_types = get_post_types();
+//     // foreach( $post_types as $post_type ){
+// 		// echo 111;
+// 		// exit;
+//         add_filter( 'manage_edit-work_sortable_columns', 'managesortablecolumns' );
+//     // }
+// }
+// add_action( 'init', 'init_managesortablecolumns' );
