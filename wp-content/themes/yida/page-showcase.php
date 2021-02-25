@@ -87,17 +87,18 @@
         </div>
     </div> -->
 
-    <div class="l-inner">
-        <p id="breadcrumbs"><span><span>
+    <div class="l-inner-wrapper">
+        <div class="l-inner">
+            <p id="breadcrumbs"><span><span>
 
-                    <a class="home-a" href="<?php echo get_site_url();?>">
+                        <a class="home-a" href="<?php echo get_site_url();?>">
 
-                        <i class="fas fa-home"></i>
-                    </a>
-                    &gt;
-                    <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
+                            <i class="fas fa-home"></i>
+                        </a>
+                        &gt;
+                        <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
+        </div>
     </div>
-
     <div class="l-inner">
 
         <ul class="portfolio-filter-ul">
