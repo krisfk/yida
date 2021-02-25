@@ -304,6 +304,10 @@ a:hover {
 
 .portfolio-thumbnail a .caption {
     font-size: 14px;
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    color: #000;
 }
 
 .portfolio-thumbnail.portfolio-thumbnail-2 {
