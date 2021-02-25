@@ -132,20 +132,17 @@ $(function() {
             $('.practical').fadeIn(0);
 
         }
-        // $('.portfolio-thumbnail').fadeOut(0);
-        // $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
 
-        // $('.p-index-slider').fadeOut(0);
+    });
 
-        // $('.p-index-slider').css({
-        // 'z-index': '0'
-        // });
-
-        // $('.p-index-slider#js-index-slider' + viewing_idx).css({
-        // 'z-index': '100'
-        // })
-    })
 })
+
+window.onload = function() {
+    for (i = 0; i < $('.work-thumb-div').length; $i++) {
+
+        $('.work-thumb-div').delay(100).eq(i).fadeIn(200);
+    }
+}
 </script>
 <?php 
 get_footer();?>
