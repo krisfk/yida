@@ -425,6 +425,7 @@ div.pp_pic_holder {
 
 #breadcrumbs {
     margin: 0;
+    padding: 13.5px 0;
 }
 
 @media only screen and (max-width: 1920px) {}
