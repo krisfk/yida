@@ -673,6 +673,8 @@ get_template_directory_uri().'/jquery.magnific-popup.js'; ?>"></script>
     <script type="text/javascript" src="<?php echo 
 get_template_directory_uri().'/common.js'; ?>"></script>
 
+    <script src="https://kit.fontawesome.com/64716b40d8.js" crossorigin="anonymous"></script>
+
 
 </head>
 
