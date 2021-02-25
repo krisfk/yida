@@ -174,36 +174,6 @@ while ( $the_query->have_posts() ) :
 
 
 
-                <!-- <div class="col-lg-6 mb-4">
-
-                    <a href="javascript:void(0);">
-
-                        <div class="caption">The Rednaxela 帝華臺</div>
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
-                    </a>
-
-                </div>
-                <div class="col-lg-6 mb-4">
-
-                    <a href="javascript:void(0);">
-
-                        <div class="caption">The Rednaxela 帝華臺</div>
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
-                    </a>
-
-                </div>
-                <div class="col-lg-6 mb-4">
-
-                    <a href="javascript:void(0);">
-
-                        <div class="caption">The Rednaxela 帝華臺</div>
-                        <img class="w-100" src="<?php echo 
-get_template_directory_uri().'/images/home-thumb-4.jpg'; ?>" alt="">
-                    </a>
-
-                </div> -->
 
             </div>
         </div>

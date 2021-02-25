@@ -107,47 +107,93 @@
         </ul>
 
 
+        <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-1">
 
-        <!-- <table class="mt-5 content-table">
-            <tbody>
-                <tr>
-                    <td class="subtitle-bar-td">
-                        <div class="subtitle-bar"></div>
-                    </td>
-                    <td class="mb-5">
-                        <h3 class="subtitle">工程案例</h3>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="pt-3 pb-5">XXXX</td>
-                </tr>
-            </tbody>
-        </table> -->
+            <div class="row">
+
+                <?php
+
+$the_query = new WP_Query( array(
+'post_type' => 'work',
+'orderby' => 'menu_order',
+'tax_query' => array(
+array (
+'taxonomy' => 'work_type',
+'field' => 'slug',
+'terms' => 'delicated-work',
+)
+),
+) );
+
+while ( $the_query->have_posts() ) :
+$the_query->the_post();
+$img_id = get_field('small_rectangle_image');
+$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_url = $img_arr[0];
+echo ' <div class="col-lg-6 mb-4">
+
+<a href="'.get_permalink().'">
+<img class="w-100" src="'.$img_url.'" alt="">
+    </a>
+
+</div>';
+
+// echo print_r(get_field('photo_gallery'));
+endwhile;
+
+?>
 
 
-        <!-- <table class="content-table">
-            <tbody>
-                <tr>
-                    <td class="subtitle-bar-td">
-                        <div class="subtitle-bar"></div>
-                    </td>
-                    <td class="mb-5">
-                        <h3 class="subtitle">相片</h3>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="pt-3 pb-5">
-                        <?php
-                        the_content();
-                        
-                    ?>
 
-                    </td>
-                </tr>
-            </tbody>
-        </table> -->
+            </div>
+        </div>
+
+
+        <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-2">
+
+            <div class="row">
+
+
+
+                <?php
+
+$the_query = new WP_Query( array(
+'post_type' => 'work',
+'orderby' => 'menu_order',
+'tax_query' => array(
+array (
+'taxonomy' => 'work_type',
+'field' => 'slug',
+'terms' => 'practical-work',
+)
+),
+) );
+
+while ( $the_query->have_posts() ) :
+$the_query->the_post();
+$img_id = get_field('small_rectangle_image');
+$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_url = $img_arr[0];
+echo '  <div class="col-lg-6 mb-4">
+
+<a href="'.get_permalink().'">
+
+<div class="caption">'.get_the_title().'</div>
+<img class="w-100" src="'.$img_url.'" alt="">
+</a>
+
+</div>';
+endwhile;
+
+?>
+
+
+
+
+
+
+            </div>
+        </div>
 
 
 
