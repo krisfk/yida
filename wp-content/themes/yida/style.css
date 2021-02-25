@@ -305,7 +305,7 @@ a:hover {
 .portfolio-thumbnail a .caption {
     font-size: 14px;
     position: absolute;
-    bottom: -22px;
+    bottom: -25px;
     right: 0;
     color: #000;
 }
@@ -540,6 +540,13 @@ div.pp_pic_holder {
 }
 
 @media only screen and (max-width: 480px) {
+    .portfolio-thumbnail a .caption {
+        /* font-size: 14px;
+    position: absolute; */
+        bottom: -22px;
+        /* right: 0;
+    color: #000; */
+    }
     .flow-step-div {
         padding: 0 !important;
     }
