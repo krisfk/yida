@@ -76,7 +76,7 @@
 
                     <td colspan="2" class="pt-3 pb-5">
 
-                        <h1 class="animate__animated animate__fadeIn">Animation</h1>
+                        <!-- <h1 class="animate__animated animate__fadeIn">Animation</h1> -->
 
                         <div class="  container-fluid flow-step-div flow-step-div-1">
 
@@ -202,24 +202,26 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
 <script type="text/javascript">
 $(function() {
 
-    // $('.flow-step-div-1').css({
-    //     'opacity': 0
-    // });
+            // $('.flow-step-div-1').css({
+            //     'opacity': 0
+            // });
 
-    setTimeout(() => {
-        $('.flow-step-div-1').addClass('aniamted');
+            setTimeout(() => {
+                $('.flow-step-div-1').addClass('aniamted');
 
-        $('.flow-step-div-1').addClass('fadeInLeft');
-    }, 4000);
-    $(window).on('resize scroll', function() {
-        // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
-        // $('.flow-step-div-1').addClass('animate');
-        // $('.flow-step-div-1').addClass('fadeInLeft');
+                $('.flow-step-div-1').addClass('fadeInLeft');
+            }, 4000);
+            $(window).on('resize scroll', function() {
+                    // animate__animated animate__fadeIn
+                    if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass(
+                        'animate__animated')) {
+                        $('.flow-step-div-1').addClass('animate__animated');
+                        $('.flow-step-div-1').addClass('animate__fadeInLeft');
 
-    });
+                    });
 
 
-});
+            });
 </script>
 <?php 
 get_footer();?>
