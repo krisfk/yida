@@ -18,7 +18,7 @@
     </div>
     <div class="l-inner">
 
-        <ul class="portfolio-filter-ul mt-5 mb-5">
+        <ul class="portfolio-filter-ul mt-4 mt-sm-4 mt-md-5 mt-lg-5 mb-4 mb-sm-4 mb-md-5 mb-lg-5 ">
             <li><a class="active" href="javascript:void(0);"> 全部作品 </a></li>
 
             <li><a class="" href="javascript:void(0);"> 精緻作品 </a></li>
