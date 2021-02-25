@@ -312,6 +312,7 @@ a:hover {
     /* right: 0; */
     color: #000;
     text-align: right;
+    margin: 5px 0 0 0;
 }
 
 .portfolio-thumbnail.portfolio-thumbnail-2 {
@@ -469,7 +470,9 @@ div.pp_pic_holder {
     padding: 13.5px 0;
 }
 
-.work-thumb-div {}
+.work-thumb-div {
+    margin: 0 0 10px 0;
+}
 
 @media only screen and (max-width: 1920px) {}
 
