@@ -249,13 +249,16 @@ a:hover {
 
 .portfolio-filter-ul li a {}
 
-.home .portfolio-filter-ul li a,
-.portfolio-filter-ul li a {
+.home .portfolio-filter-ul li a {
     padding: 23px 30px;
     background: #fff;
     line-height: 1.6;
     color: #000;
     text-decoration: none;
+}
+
+.portfolio-filter-ul li a {
+    display: block;
 }
 
 .portfolio-filter-ul li a .arrow {
