@@ -478,6 +478,11 @@ div.pp_pic_holder {
 
 #breadcrumbs a {
     color: #000;
+    transition: 0.2s all;
+}
+
+#breadcrumbs a:hover {
+    color: #538c2f;
 }
 
 .work-thumb-div {
