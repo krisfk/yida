@@ -240,6 +240,10 @@ a:hover {
 }
 
 .portfolio-filter-ul li a {
+    display: block;
+}
+
+.home .portfolio-filter-ul li a {
     padding: 23px 30px;
     background: #fff;
     line-height: 1.6;
