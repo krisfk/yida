@@ -239,6 +239,10 @@ a:hover {
     line-height: 1.6;
 } */
 
+.home .portfolio-filter-ul li {
+    margin: 0;
+}
+
 .home .portfolio-filter-ul li a.active,
 .portfolio-filter-ul li a.active {
     padding: 23px 30px;
