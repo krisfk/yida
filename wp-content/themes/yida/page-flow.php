@@ -76,7 +76,7 @@
 
                     <td colspan="2" class="pt-3 pb-5">
 
-                        <div class=" animate__animated container-fluid flow-step-div flow-step-div-1">
+                        <div class="  container-fluid flow-step-div flow-step-div-1">
 
                             <div class="row">
                                 <div class="col-12"><img src="<?php echo 
@@ -200,9 +200,9 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
 <script type="text/javascript">
 $(function() {
 
-    $('.flow-step-div-1').css({
-        'opacity': 0
-    });
+    // $('.flow-step-div-1').css({
+    //     'opacity': 0
+    // });
 
     setTimeout(() => {
         $('.flow-step-div-1').addClass('aniamted');
