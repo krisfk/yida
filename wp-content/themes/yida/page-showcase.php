@@ -94,7 +94,7 @@
 
                         <i class="fas fa-home"></i>
                     </a>
-                    &nbsp;&gt;&nbsp;
+                    &gt;
                     <span class="breadcrumb_last" aria-current="page">Works</span></span></span></p>
     </div>
 
