@@ -140,7 +140,7 @@ $(function() {
 window.onload = function() {
     for (i = 0; i < $('.work-thumb-div').length; i++) {
 
-        $('.work-thumb-div').delay(100).eq(i).fadeIn(200);
+        $('.work-thumb-div').delay(50).eq(i).fadeIn(200);
     }
 }
 </script>
