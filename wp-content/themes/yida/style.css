@@ -619,6 +619,13 @@ div.pp_pic_holder {
 }
 
 @media only screen and (max-width: 480px) {
+    .home .portfolio-filter-ul {
+        /* position: absolute; */
+        /* top: -71px; */
+        display: table;
+        z-index: 600;
+        margin: 0 0 40px 0;
+    }
     .portfolio-thumbnail a .caption {
         /* font-size: 14px;
     position: absolute; */
