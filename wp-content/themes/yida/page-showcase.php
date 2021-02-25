@@ -128,9 +128,9 @@ array (
 while ( $the_query->have_posts() ) :
 $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
-$img_arr =wp_get_attachment_image_src($img_id,'work-thumb');
+$img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo ' <div class="col-6 col-lg-3 mb-6">
+echo ' <div class="col-6 col-lg-3 mb-4">
 
 <a href="'.get_permalink().'">
 <img class="w-100" src="'.$img_url.'" alt="">
@@ -159,9 +159,9 @@ array (
 while ( $the_query->have_posts() ) :
 $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
-$img_arr =wp_get_attachment_image_src($img_id,'work-thumb');
+$img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo '  <div class="col-6 col-lg-3 mb-6">
+echo '  <div class="col-6 col-lg-3 mb-4">
 
 <a href="'.get_permalink().'">
 

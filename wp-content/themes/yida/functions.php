@@ -638,20 +638,3 @@ add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
-
-
-
-// First we'll add support for featured images
-add_theme_support( 'post-thumbnails' );
-
-add_image_size( 'work-thumb', 277, 166 );
-// add_image_size( 'blog-width', 800, 600 );
-
-// And then we'll add the custom size that spans the width of the blog to the Gutenberg image dropdown
-add_filter( 'image_size_names_choose', 'wpmudev_custom_image_sizes' );
-
-function wpmudev_custom_image_sizes( $sizes ) {
-    return array_merge( $sizes, array(
-        'work-thumb' => __( 'Work Thumb' ),
-    ) );
-}
