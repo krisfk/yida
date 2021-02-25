@@ -639,5 +639,5 @@ add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
 
-
+add_theme_support( 'post-thumbnails' );
 add_image_size( 'work-thumb', 277, 166 ); // Soft Crop Mode
