@@ -238,7 +238,8 @@ a:hover {
     line-height: 1.6;
 } */
 
-.home .portfolio-filter-ul li a.active {
+.home .portfolio-filter-ul li a.active,
+.portfolio-filter-ul li a.active {
     padding: 23px 30px;
     background: #538c2f;
     color: #fff;
@@ -248,7 +249,8 @@ a:hover {
 
 .portfolio-filter-ul li a {}
 
-.home .portfolio-filter-ul li a {
+.home .portfolio-filter-ul li a,
+.portfolio-filter-ul li a {
     padding: 23px 30px;
     background: #fff;
     line-height: 1.6;
