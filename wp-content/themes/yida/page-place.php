@@ -1,5 +1,18 @@
 <?php get_header();?>
 <main class="l-main">
+    <div class="l-inner-wrapper">
+        <div class="l-inner">
+            <p id="breadcrumbs"><span><span>
+
+                        <a class="home-a" href="<?php echo get_site_url();?>">
+
+                            <i class="fas fa-home"></i>
+                        </a>
+                        &gt;
+                        <span class="breadcrumb_last" aria-current="page">施工現場</span></span></span></p>
+        </div>
+    </div>
+
 
     <div class="slide-container">
         <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
