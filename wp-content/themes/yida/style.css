@@ -549,8 +549,11 @@ div.pp_pic_holder {
     .flow-step-div .txt_under_num br {
         display: none;
     }
-    .portfolio-thumbnail a .caption {
+    .home .portfolio-thumbnail a .caption {
         font-size: 18px;
+    }
+    .portfolio-thumbnail a .caption {
+        font-size: 12px;
     }
     .work-photo-a {
         float: none;
