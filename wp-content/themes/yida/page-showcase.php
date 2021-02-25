@@ -128,7 +128,7 @@ array (
 while ( $the_query->have_posts() ) :
 $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
-$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
 echo ' <div class="col-lg-6 mb-4">
 
@@ -172,7 +172,7 @@ array (
 while ( $the_query->have_posts() ) :
 $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
-$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
 echo '  <div class="col-lg-6 mb-4">
 
