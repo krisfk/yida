@@ -214,7 +214,7 @@ $(function() {
                 'animate__animated')) {
             $('.flow-step-div-1').addClass('animate__animated');
             $('.flow-step-div-1').addClass('animate__fadeInLeft');
-            $('.flow-step-div-1').addClass('animate__delay');
+            $('.flow-step-div-1').addClass('delay-2');
 
 
         }
