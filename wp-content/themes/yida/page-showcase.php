@@ -149,7 +149,7 @@ endwhile;
         </div>
 
 
-        <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-2">
+        <!-- <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-2">
 
             <div class="row">
 
@@ -193,7 +193,7 @@ endwhile;
 
 
             </div>
-        </div>
+        </div> -->
 
 
 
