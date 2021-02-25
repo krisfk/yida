@@ -81,7 +81,7 @@
     </div>
 
 
-    <div class="l-inner position-relative pt-5">
+    <div class="l-inner position-relative pt-4 pt-sm-4 pt-md-5 pt-lg-5">
 
 
         <ul class="portfolio-filter-ul">
