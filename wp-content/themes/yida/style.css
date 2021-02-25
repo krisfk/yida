@@ -330,6 +330,7 @@ a:hover {
     width: 100%;
     text-align: center;
     line-height: normal;
+    position: relative;
 }
 
 .flow-step-div img {
