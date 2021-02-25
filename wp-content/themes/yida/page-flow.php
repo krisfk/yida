@@ -202,22 +202,24 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
 <script type="text/javascript">
 $(function() {
 
-            // $('.flow-step-div-1').css({
-            //     'opacity': 0
-            // });
+    // $('.flow-step-div-1').css({
+    //     'opacity': 0
+    // });
 
 
-            $(window).on('resize scroll', function() {
-                    // animate__animated animate__fadeIn
-                    if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass(
-                            'animate__animated')) {
-                        $('.flow-step-div-1').addClass('animate__animated');
-                        $('.flow-step-div-1').addClass('animate__fadeInLeft');
+    $(window).on('resize scroll', function() {
 
-                    });
+        // animate__animated animate__fadeIn
+        if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass(
+                'animate__animated')) {
+            $('.flow-step-div-1').addClass('animate__animated');
+            $('.flow-step-div-1').addClass('animate__fadeInLeft');
+        }
+
+    });
 
 
-            });
+});
 </script>
 <?php 
 get_footer();?>
