@@ -108,7 +108,7 @@
 
 
 
-        <table class="mt-5 content-table">
+        <!-- <table class="mt-5 content-table">
             <tbody>
                 <tr>
                     <td class="subtitle-bar-td">
@@ -123,10 +123,10 @@
                     <td class="pt-3 pb-5">XXXX</td>
                 </tr>
             </tbody>
-        </table>
+        </table> -->
 
 
-        <table class="content-table">
+        <!-- <table class="content-table">
             <tbody>
                 <tr>
                     <td class="subtitle-bar-td">
@@ -139,17 +139,15 @@
                 <tr>
                     <td></td>
                     <td class="pt-3 pb-5">
-                        <!-- fdsf -->
                         <?php
                         the_content();
                         
-                //    echo  do_shortcode('[woowgallery id="16"]');
                     ?>
 
                     </td>
                 </tr>
             </tbody>
-        </table>
+        </table> -->
 
 
 
