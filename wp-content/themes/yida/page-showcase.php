@@ -130,7 +130,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo ' <div class="col-6 col-lg-3 work-thumb-div">
+echo ' <div class="col-6 col-lg-3 work-thumb-div  g-0">
 
 <a href="'.get_permalink().'">
 
@@ -163,7 +163,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo '  <div class="col-6 col-lg-3 work-thumb-div">
+echo '  <div class="col-6 col-lg-3 work-thumb-div g-0">
 
 <a href="'.get_permalink().'">
 
