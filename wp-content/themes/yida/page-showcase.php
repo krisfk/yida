@@ -90,7 +90,7 @@
     <div class="l-inner">
         <p id="breadcrumbs"><span><span>
 
-                    <a href="<?php echo get_site_url();?>">
+                    <a class="home-a" href="<?php echo get_site_url();?>">
 
                         <i class="fas fa-home"></i>
                     </a>
