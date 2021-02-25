@@ -206,15 +206,11 @@ $(function() {
             //     'opacity': 0
             // });
 
-            setTimeout(() => {
-                $('.flow-step-div-1').addClass('aniamted');
 
-                $('.flow-step-div-1').addClass('fadeInLeft');
-            }, 4000);
             $(window).on('resize scroll', function() {
                     // animate__animated animate__fadeIn
                     if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass(
-                        'animate__animated')) {
+                            'animate__animated')) {
                         $('.flow-step-div-1').addClass('animate__animated');
                         $('.flow-step-div-1').addClass('animate__fadeInLeft');
 
