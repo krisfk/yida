@@ -200,9 +200,9 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
 <script type="text/javascript">
 $(function() {
 
-    // $('.flow-step-div-1').css({
-    //     'left': '-20px'
-    // });
+    $('.flow-step-div-1').css({
+        'left': '-20px'
+    });
     $(window).on('resize scroll', function() {
         if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
             $('.flow-step-div-1').addClass('animate');
