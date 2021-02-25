@@ -131,26 +131,7 @@ jQuery(function($) {
     initialize();
 
 
-    var viewing_idx = 1;
-    $('.portfolio-filter-ul li a').click(function() {
-        $('.portfolio-filter-ul li a').removeClass('active');
-        $(this).toggleClass('active');
 
-        viewing_idx = $(this).parent('li').index() + 1;
-
-        $('.portfolio-thumbnail').fadeOut(0);
-        $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
-
-        // $('.p-index-slider').fadeOut(0);
-
-        $('.p-index-slider').css({
-            'z-index': '0'
-        });
-
-        $('.p-index-slider#js-index-slider' + viewing_idx).css({
-            'z-index': '100'
-        })
-    })
 
 });
 </script>

@@ -3,89 +3,6 @@
 
 <main class="l-main">
 
-    <!-- <div class="slide-container">
-        <div id="js-index-slider1" class="p-index-slider" data-slide-time="7000">
-            <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_01.jpg" alt="">
-                    </div>
-                </a>
-
-            </div>
-            <div class="p-index-slider__item p-index-slider__item--2 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_02.jpg" alt="">
-                    </div>
-                </a>
-
-            </div>
-            <div class="p-index-slider__item p-index-slider__item--3 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/slide_03.jpg" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-
-
-        <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
-            <div class="p-index-slider__item p-index-slider__item--1 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
-                    </div>
-                </a>
-
-            </div>
-            <div class="p-index-slider__item p-index-slider__item--2 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
-                    </div>
-                </a>
-            </div>
-            <div class="p-index-slider__item p-index-slider__item--3 has-button has-link-button">
-                <a href="javascript:void(0);" class="p-index-slider__item__inner">
-                    <div class="p-index-slider__item-content">
-                        <div class="p-index-slider__item-content__inner l-inner">
-                        </div>
-                    </div>
-                    <div class="p-index-slider__item-image">
-
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/test-banner.jpg" alt="">
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div> -->
 
     <div class="l-inner-wrapper">
         <div class="l-inner">
@@ -102,8 +19,10 @@
     <div class="l-inner">
 
         <ul class="portfolio-filter-ul mt-5 mb-5">
-            <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
-            <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
+            <li><a class="active" href="javascript:void(0);"> 全部作品 </a></li>
+
+            <li><a class="" href="javascript:void(0);"> 精緻作品 </a></li>
+            <li><a href="javascript:void(0);">實用作品 </a></li>
         </ul>
 
 
