@@ -476,6 +476,10 @@ div.pp_pic_holder {
     padding: 13.5px 0;
 }
 
+#breadcrumbs a {
+    color: #000;
+}
+
 .work-thumb-div {
     margin: 0 0 10px 0;
     display: none;
