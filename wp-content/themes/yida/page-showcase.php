@@ -49,7 +49,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo ' <div class="col-6 col-lg-3 work-thumb-div ">
+echo ' <div class="col-6 col-lg-3 work-thumb-div delicated">
 
 <a href="'.get_permalink().'">
 
@@ -82,7 +82,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo '  <div class="col-6 col-lg-3 work-thumb-div">
+echo '  <div class="col-6 col-lg-3 work-thumb-div practical">
 
 <a href="'.get_permalink().'">
 
@@ -117,8 +117,21 @@ $(function() {
         $('.portfolio-filter-ul li a').removeClass('active');
         $(this).toggleClass('active');
 
-        // viewing_idx = $(this).parent('li').index() + 1;
+        viewing_idx = $(this).parent('li').index();
 
+        $('.delicated,.practical').fadeOut(0);
+
+        if (viewing_idx == 0) {
+            $('.delicated,.practical').fadeIn(0);
+        }
+        if (viewing_idx == 1) {
+            $('.delicated').fadeIn(0);
+
+        }
+        if (viewing_idx == 2) {
+            $('.practical').fadeIn(0);
+
+        }
         // $('.portfolio-thumbnail').fadeOut(0);
         // $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
 
