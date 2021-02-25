@@ -621,7 +621,7 @@ div.pp_pic_holder {
         /* top: -71px; */
         display: table;
         z-index: 600;
-        margin: 0 0 40px 0;
+        margin: 0 0 20px 0;
         top: 0;
         position: relative;
     }
