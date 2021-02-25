@@ -293,6 +293,11 @@ a:hover {
     box-shadow: none;
     width: 100%;
     position: relative;
+    transition: 0.2s all;
+}
+
+.portfolio-thumbnail a:hover {
+    opacity: 0.85;
 }
 
 .home .portfolio-thumbnail a .caption {
