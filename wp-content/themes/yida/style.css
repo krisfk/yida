@@ -304,9 +304,9 @@ a:hover {
 
 .portfolio-thumbnail a .caption {
     font-size: 14px;
-    position: absolute;
-    bottom: -25px;
-    right: 0;
+    /* position: absolute; */
+    /* bottom: -25px; */
+    /* right: 0; */
     color: #000;
 }
 
@@ -543,7 +543,7 @@ div.pp_pic_holder {
     .portfolio-thumbnail a .caption {
         /* font-size: 14px;
     position: absolute; */
-        bottom: -22px;
+        /* bottom: -22px; */
         /* right: 0;
     color: #000; */
     }

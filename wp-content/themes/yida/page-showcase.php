@@ -133,10 +133,10 @@ $img_url = $img_arr[0];
 echo ' <div class="col-6 col-lg-3 work-thumb-div">
 
 <a href="'.get_permalink().'">
-<div class="caption">'.get_the_title().'</div>
 
 <img class="w-100" src="'.$img_url.'" alt="">
     </a>
+    <div class="caption">'.get_the_title().'</div>
 
 </div>';
 
@@ -167,9 +167,10 @@ echo '  <div class="col-6 col-lg-3 work-thumb-div">
 
 <a href="'.get_permalink().'">
 
-<div class="caption">'.get_the_title().'</div>
 <img class="w-100" src="'.$img_url.'" alt="">
 </a>
+<div class="caption">'.get_the_title().'</div>
+
 
 </div>';
 endwhile;
