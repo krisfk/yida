@@ -101,7 +101,7 @@
     </div>
     <div class="l-inner">
 
-        <ul class="portfolio-filter-ul mt-3 mb-3">
+        <ul class="portfolio-filter-ul mt-5 mb-5">
             <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
             <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
         </ul>
