@@ -178,7 +178,7 @@ $(function() {
 
 
         for (i = 0; i < $('.work-photo-a').length; i++) {
-            $('.work-photo-a').eq(i).delay(50 * i).queue(function(next) {
+            $('.work-photo-a').eq(i).delay(500 + 50 * i).queue(function(next) {
                 $(this).addClass('animate');
             });;
         }
