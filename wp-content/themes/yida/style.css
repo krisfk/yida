@@ -107,6 +107,10 @@ Yida is distributed under the terms of the GNU GPL.
  * Reset
  */
 
+a {
+    text-decoration: none;
+}
+
 .yida-logo {
     width: 115px;
 }
@@ -403,8 +407,9 @@ div.pp_pic_holder {
     z-index: 700;
 }
 
-.fa-home {
+a .fa-home {
     text-decoration: none;
+    color: #000;
 }
 
 @media only screen and (max-width: 1920px) {}
