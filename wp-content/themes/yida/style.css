@@ -631,6 +631,12 @@ div.pp_pic_holder {
     .home .portfolio-filter-ul li a {
         box-shadow: 0px 0px 0px 1px #538c2f inset;
     }
+    .portfolio-filter-ul li a {
+        padding: 23px 10px;
+    }
+    .portfolio-filter-ul li a.active {
+        padding: 23px 10px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
