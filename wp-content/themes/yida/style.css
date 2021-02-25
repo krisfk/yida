@@ -484,8 +484,13 @@ div.pp_pic_holder {
         float: left;
         display: block;
     }
-    .portfolio-thumbnail a .caption {
+    .home .portfolio-thumbnail a .caption {
         font-size: 24px;
+        letter-spacing: 1px;
+    }
+    .portfolio-thumbnail a .caption {
+        font-size: 11px;
+        letter-spacing: 1px;
     }
 }
 
