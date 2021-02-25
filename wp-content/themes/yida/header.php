@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width">
 
     <!-- This site is optimized with the Yoast SEO plugin v15.4 - https://yoast.com/wordpress/plugins/seo/ -->
-    <title>トップページ - interior design halue</title>
+    <title>依達貿易有限公司</title>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <!-- <link rel="canonical" href="https://design-halue.com/" /> -->
     <!-- <meta property="og:locale" content="ja_JP" /> -->
