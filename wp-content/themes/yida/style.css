@@ -255,6 +255,7 @@ a:hover {
     line-height: 1.6;
     color: #000;
     text-decoration: none;
+    box-shadow: none;
 }
 
 .portfolio-filter-ul li a {
