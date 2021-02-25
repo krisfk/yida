@@ -210,14 +210,18 @@ $(function() {
     $(window).on('resize scroll', function() {
 
         // animate__animated animate__fadeIn
-        if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass(
-                'animate__animated')) {
-            $('.flow-step-div-1').addClass('animate__animated');
-            $('.flow-step-div-1').addClass('animate__fadeInLeft');
-            $('.flow-step-div-1').addClass('delay-2');
 
-
+        for (i = 1; i <= 3; i++) {
+            if ($('.flow-step-div-' + i).isInViewport() && !$('.flow-step-div-' + i).hasClass(
+                    'animate__animated')) {
+                $('.flow-step-div-' + i).addClass('animate__animated');
+                $('.flow-step-div-' + i).addClass('animate__fadeInLeft');
+                $('.flow-step-div-' + i).addClass('delay-2');
+            }
         }
+
+
+
 
     });
 
