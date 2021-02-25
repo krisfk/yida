@@ -638,6 +638,13 @@ div.pp_pic_holder {
     .portfolio-filter-ul li a.active {
         padding: 14px 10px;
     }
+    .home .portfolio-filter-ul li a {
+        padding: 14px 10px;
+        font-size: 14px;
+    }
+    .home .portfolio-filter-ul li a.active {
+        padding: 14px 10px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
