@@ -130,7 +130,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo ' <div class="col-lg-3 mb-4">
+echo ' <div class="col-sm-6 col-lg-3 mb-4">
 
 <a href="'.get_permalink().'">
 <img class="w-100" src="'.$img_url.'" alt="">
@@ -161,7 +161,7 @@ $the_query->the_post();
 $img_id = get_field('small_rectangle_image');
 $img_arr =wp_get_attachment_image_src($img_id,'medium');
 $img_url = $img_arr[0];
-echo '  <div class="col-lg-3 mb-4">
+echo '  <div class="col-sm-6 col-lg-3 mb-4">
 
 <a href="'.get_permalink().'">
 
@@ -180,52 +180,6 @@ endwhile;
             </div>
         </div>
 
-
-        <!-- <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-2">
-
-            <div class="row">
-
-
-
-                <?php
-
-$the_query = new WP_Query( array(
-'post_type' => 'work',
-'orderby' => 'menu_order',
-'tax_query' => array(
-array (
-'taxonomy' => 'work_type',
-'field' => 'slug',
-'terms' => 'practical-work',
-)
-),
-) );
-
-while ( $the_query->have_posts() ) :
-$the_query->the_post();
-$img_id = get_field('small_rectangle_image');
-$img_arr =wp_get_attachment_image_src($img_id,'medium');
-$img_url = $img_arr[0];
-echo '  <div class="col-lg-6 mb-4">
-
-<a href="'.get_permalink().'">
-
-<div class="caption">'.get_the_title().'</div>
-<img class="w-100" src="'.$img_url.'" alt="">
-</a>
-
-</div>';
-endwhile;
-
-?>
-
-
-
-
-
-
-            </div>
-        </div> -->
 
 
 
