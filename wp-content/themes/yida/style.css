@@ -604,6 +604,7 @@ div.pp_pic_holder {
     }
     .flow-step-div .num {
         font-size: 28px;
+        letter-spacing: normal;
     }
     .flow-step-div .txt_under_num {
         font-size: 12px;
