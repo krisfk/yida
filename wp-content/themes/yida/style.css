@@ -306,6 +306,7 @@ a:hover {
 .work-thumb-div .caption {
     font-size: 14px;
     letter-spacing: 1px;
+    line-height: 18px;
     /* position: absolute; */
     /* bottom: -25px; */
     /* right: 0; */
