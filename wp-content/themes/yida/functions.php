@@ -638,3 +638,6 @@ add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
+
+
+add_image_size( 'work-thumb', 277, 166 ); // Soft Crop Mode
