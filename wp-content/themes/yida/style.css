@@ -616,9 +616,6 @@ div.pp_pic_holder {
         padding: 0 5px;
         letter-spacing: 2px;
     }
-}
-
-@media only screen and (max-width: 480px) {
     .home .portfolio-filter-ul {
         /* position: absolute; */
         /* top: -71px; */
@@ -626,6 +623,9 @@ div.pp_pic_holder {
         z-index: 600;
         margin: 0 0 40px 0;
     }
+}
+
+@media only screen and (max-width: 480px) {
     .portfolio-thumbnail a .caption {
         /* font-size: 14px;
     position: absolute; */
