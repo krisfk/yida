@@ -238,7 +238,7 @@ a:hover {
     line-height: 1.6;
 } */
 
-.portfolio-filter-ul li a.active {
+.home .portfolio-filter-ul li a.active {
     padding: 23px 30px;
     background: #538c2f;
     color: #fff;
