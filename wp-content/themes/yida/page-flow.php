@@ -76,7 +76,7 @@
 
                     <td colspan="2" class="pt-3 pb-5">
 
-                        <div class="container-fluid flow-step-div flow-step-div-1">
+                        <div class=" animate__animated container-fluid flow-step-div flow-step-div-1">
 
                             <div class="row">
                                 <div class="col-12"><img src="<?php echo 
@@ -204,10 +204,10 @@ $(function() {
     //     'left': '-20px'
     // });
     $(window).on('resize scroll', function() {
-        // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
-        // $('.flow-step-div-1').addClass('animate');
-        $('.flow-step-div-1').addClass('fadeInLeft');
-        // }
+        if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
+            $('.flow-step-div-1').addClass('animate');
+            $('.flow-step-div-1').addClass('fadeInLeft');
+        }
     });
 
 
