@@ -208,6 +208,13 @@ a:hover {
     z-index: 600;
 }
 
+.portfolio-filter-ul {
+    /* position: absolute; */
+    /* top: -47px; */
+    display: table;
+    z-index: 600;
+}
+
 .portfolio-filter-ul li {
     display: inline-block;
     /* width: 146px; */
