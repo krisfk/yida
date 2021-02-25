@@ -122,14 +122,14 @@ $(function() {
         $('.delicated,.practical').fadeOut(0);
 
         if (viewing_idx == 0) {
-            $('.delicated,.practical').fadeIn(200);
+            $('.delicated,.practical').fadeIn(0);
         }
         if (viewing_idx == 1) {
-            $('.delicated').fadeIn(200);
+            $('.delicated').fadeIn(0);
 
         }
         if (viewing_idx == 2) {
-            $('.practical').fadeIn(200);
+            $('.practical').fadeIn(0);
 
         }
 
