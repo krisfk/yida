@@ -210,10 +210,10 @@ $(function() {
                 $('.flow-step-div-1').addClass('fadeInLeft');
             }, 4000);
             $(window).on('resize scroll', function() {
-                    // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
-                    // $('.flow-step-div-1').addClass('animate');
-                    // $('.flow-step-div-1').addClass('fadeInLeft');
-                }
+                // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
+                // $('.flow-step-div-1').addClass('animate');
+                // $('.flow-step-div-1').addClass('fadeInLeft');
+
                 // });
 
 
