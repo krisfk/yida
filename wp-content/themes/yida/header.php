@@ -676,7 +676,7 @@ get_template_directory_uri().'/common.js'; ?>"></script>
     <script src="https://kit.fontawesome.com/64716b40d8.js" crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 </head>
 
