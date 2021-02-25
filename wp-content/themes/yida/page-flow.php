@@ -200,24 +200,24 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
 <script type="text/javascript">
 $(function() {
 
-            $('.flow-step-div-1').css({
-                'opacity': 0
-            });
+    $('.flow-step-div-1').css({
+        'opacity': 0
+    });
 
-            setTimeout(() => {
-                $('.flow-step-div-1').addClass('aniamted');
+    setTimeout(() => {
+        $('.flow-step-div-1').addClass('aniamted');
 
-                $('.flow-step-div-1').addClass('fadeInLeft');
-            }, 4000);
-            $(window).on('resize scroll', function() {
-                // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
-                // $('.flow-step-div-1').addClass('animate');
-                // $('.flow-step-div-1').addClass('fadeInLeft');
+        $('.flow-step-div-1').addClass('fadeInLeft');
+    }, 4000);
+    $(window).on('resize scroll', function() {
+        // if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
+        // $('.flow-step-div-1').addClass('animate');
+        // $('.flow-step-div-1').addClass('fadeInLeft');
 
-                // });
+    });
 
 
-            })
+});
 </script>
 <?php 
 get_footer();?>
