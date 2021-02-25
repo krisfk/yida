@@ -76,7 +76,7 @@
 
                     <td colspan="2" class="pt-3 pb-5">
 
-                        <div class="container-fluid flow-step-div">
+                        <div class="container-fluid flow-step-div flow-step-div-3">
 
                             <div class="row">
                                 <div class="col-12"><img src="<?php echo 
@@ -113,7 +113,7 @@ get_template_directory_uri().'/images/step-1.png'; ?>"></div>
 
                         <div class="step-grey-line mt-5 mb-5"></div>
 
-                        <div class="container-fluid flow-step-div">
+                        <div class="container-fluid flow-step-div flow-step-div-1">
 
                             <div class="row">
                                 <div class="col-12"><img src="<?php echo 
@@ -150,7 +150,7 @@ get_template_directory_uri().'/images/step-2.png'; ?>"></div>
 
                         <div class="step-grey-line mt-5 mb-5"></div>
 
-                        <div class="container-fluid flow-step-div">
+                        <div class="container-fluid flow-step-div flow-step-div-2">
 
                             <div class="row">
                                 <div class="col-12"><img src="<?php echo 
@@ -197,5 +197,23 @@ get_template_directory_uri().'/images/step-3.png'; ?>"></div>
     </div>
 </main>
 
+<script type="text/javascript">
+$(function() {
+
+    $('.flow-step-div-1').css({
+        'left': '-100px'
+    });
+    $(window).on('resize scroll', function() {
+        if ($('.flow-step-div-1').isInViewport() && !$('.flow-step-div-1').hasClass('animate')) {
+            $('.flow-step-div-1').addClass('animate');
+            $('.flow-step-div-1').animate({
+                'left': ''
+            });
+        }
+    });
+
+
+})
+</script>
 <?php 
 get_footer();?>
