@@ -90,7 +90,7 @@
         </ul>
 
 
-        <!-- <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-1">
+        <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-1">
 
             <div class="row">
 
@@ -175,7 +175,7 @@ while ( $the_query->have_posts() ) :
 
 
             </div>
-        </div> -->
+        </div>
 
 
 
