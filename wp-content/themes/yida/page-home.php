@@ -90,6 +90,99 @@
         </ul>
 
 
+        <div class="l-inner">
+
+
+            <table class="mt-5 content-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="subtitle-bar"></div>
+                        </td>
+                        <td class="mb-5">
+                            <h3 class="subtitle">重要的不是佈局，而是生活方式。</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="pt-3 pb-5">在繁囂的生活中，我們究竟想要什麼。
+                            我們提供的不是建築物和佈局，而是每個人的生活方式。
+                            有些人想保持客廳清潔整潔，而另一些人則想放很多其他物品，給自己喜歡的東西包圍住。
+                            “我想邀請很多朋友來家中聚會”“我想有個空間讓兩夫妻過一些緩慢而平靜的生活”
+                            即使使用相同的佈局，要選擇的傢俱和室內裝飾也會發生很大變化。</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="mb-5 content-table">
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="subtitle-bar"></div>
+                        </td>
+                        <td>
+                            <h3 class="subtitle">全科工程，一條龍服務。</h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="pt-3">本公司成立超過十年，承接各類室內裝修全科工程，由設計出圖，上門洽談度尺，工程展開，
+                            跟進直至完工，為客人提供一條龍服務，亦可按客人要求提供各類局部裝修工程服務。 </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- <div id="cb_1" class="p-cb__item p-cb__item--banner">
+    <div class="p-index-banner has-image">
+        <div class="p-index-banner__image p-hover-effect__image"><img
+                src="https://design-halue.com/wp-content/uploads/2020/02/shop_banner-2.jpg" alt=""></div>
+        <div class="p-index-banner__content">
+            <div class="p-index-banner__content__inner">
+                <p class="p-index-banner__desc">日々の暮らしの楽しさや、空間づくりのお手伝いをさせていただくインテリアデザイン事務所です。</p>
+                <h2 class="p-index-banner__headline">interior design halue</h2>
+                <a class="p-index-banner__button p-button" href="profile"><span>Profile</span></a>
+            </div>
+        </div>
+    </div>
+</div> -->
+            <!-- <div id="cb_2" class="p-cb__item p-cb__item--three_boxes">
+    <div class="p-index-boxes p-index-boxes--3">
+        <div class="p-index-boxes__item p-index-boxes__item--1 has-image">
+            <a class="p-hover-effect--type3" href="service-3">
+                <div class="p-index-boxes__item-content">
+                    <p class="p-index-boxes__item-desc">ハルのサービス内容を掲載しています</p>
+                    <h2 class="p-index-boxes__item-headline">Service</h2>
+                </div>
+                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
+                        src="https://design-halue.com/wp-content/uploads/2020/02/service-1.jpg" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="p-index-boxes__item p-index-boxes__item--2 has-image">
+            <a class="p-hover-effect--type3" href="works">
+                <div class="p-index-boxes__item-content">
+                    <p class="p-index-boxes__item-desc">実績をカテゴリ別にご紹介しています</p>
+                    <h2 class="p-index-boxes__item-headline">Works</h2>
+                </div>
+                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
+                        src="https://design-halue.com/wp-content/uploads/2020/07/works.jpg" alt=""></div>
+            </a>
+        </div>
+        <div class="p-index-boxes__item p-index-boxes__item--3 has-image">
+            <a class="p-hover-effect--type3" href="flow-2">
+                <div class="p-index-boxes__item-content">
+                    <p class="p-index-boxes__item-desc">ヒアリングから納品までの流れをご覧いただけます</p>
+                    <h2 class="p-index-boxes__item-headline">Flow</h2>
+                </div>
+                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
+                        src="https://design-halue.com/wp-content/uploads/2020/07/flow.jpg" alt=""></div>
+            </a>
+        </div>
+    </div>
+</div> -->
+
+        </div>
+
         <!-- <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-1">
 
             <div class="row">
