@@ -245,7 +245,7 @@ a:hover {
     margin: 0;
 }
 
-.home .portfolio-filter-ul li a.active,
+.page-showcase .portfolio-filter-ul li a.active,
 .portfolio-filter-ul li a.active {
     padding: 23px 30px;
     background: #538c2f;
