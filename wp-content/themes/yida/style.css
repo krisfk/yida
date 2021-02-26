@@ -599,7 +599,8 @@ div.pp_pic_holder {
         width: auto;
     }
     .sns-ul {
-        margin: 0 40px 0 0;
+        position: absolute;
+        right: 85px;
     }
 }
 
