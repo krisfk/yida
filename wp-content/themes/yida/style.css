@@ -567,6 +567,14 @@ div.pp_pic_holder {
     width: 30px;
 }
 
+.sns-ul li a {
+    transition: 0.2s all;
+}
+
+.sns-ul li a:hover {
+    opacity: 0.85;
+}
+
 body.admin-bar {
     padding-top: 0px !important;
 }
