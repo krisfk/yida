@@ -85,7 +85,8 @@
 
         <ul class="portfolio-filter-ul">
             <li><a href="javascript:void(0);"> 我們是⋯ </a></li>
-            <li><a class="active" href="javascript:void(0);">工程案例 <span class="arrow">&gt;</span></a></li>
+            <li><a class="active" href="<?php echo get_site_url() ?>/showcase">工程案例 <span class="arrow">&gt;</span></a>
+            </li>
         </ul>
 
 
