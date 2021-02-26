@@ -638,3 +638,15 @@ add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
 add_filter( 'jpeg_quality', function( $arg ) {
     return 100;
 });
+
+//Page Slug Body Class
+function add_slug_body_class( $classes ) {
+	global $post;
+	if ( isset( $post ) ) {
+	$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+}
+
+add_filter( 'body_class', 'add_slug_body_class' );
+	
