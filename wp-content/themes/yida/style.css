@@ -554,7 +554,7 @@ div.pp_pic_holder {
 }
 
 .we-are:hover {
-    cursor: pointer;
+    cursor: default;
 }
 
 @media only screen and (max-width: 1920px) {}
