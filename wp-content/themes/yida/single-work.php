@@ -52,6 +52,11 @@
 
 
         <div class="mt-5"></div>
+
+        <?php
+        if(get_field('work_description'))
+        {
+            ?>
         <table class="content-table">
             <tbody>
                 <tr>
@@ -70,6 +75,10 @@
                 </tr>
             </tbody>
         </table>
+        <?php
+        }
+        ?>
+
 
 
         <table class=" content-table">
