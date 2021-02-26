@@ -9,8 +9,10 @@
                             <i class="fas fa-home"></i>
                         </a>
                         &gt;
-                        <a href="<?php echo get_site_url()?>/showcase" class="breadcrumb_last"
-                            aria-current="page">工程案例</a></span></span>
+                        <a href="<?php echo get_site_url()?>/showcase" class="breadcrumb_last" aria-current="page">
+                            <!-- 工程案例 -->
+                            <?php echo get_the_title();?>
+                        </a></span></span>
                 &gt;
                 <span class="breadcrumb_last" aria-current="page"><?php echo get_the_title();?></span></span></span>
             </p>
