@@ -10,8 +10,7 @@
                         </a>
                         &gt;
                         <a href="<?php echo get_site_url()?>/showcase" class="breadcrumb_last" aria-current="page">
-                            <!-- 工程案例 -->
-                            <?php echo get_the_title();?>
+                            工程案例
                         </a></span></span>
                 &gt;
                 <span class="breadcrumb_last" aria-current="page"><?php echo get_the_title();?></span></span></span>
@@ -59,12 +58,15 @@
                         <div class="subtitle-bar"></div>
                     </td>
                     <td class="mb-5">
-                        <h3 class="subtitle">工程案例</h3>
+                        <h3 class="subtitle">
+                            <!-- 工程案例 -->
+                            <?php echo get_the_title();?>
+                        </h3>
                     </td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="pt-3 pb-5">XXXXXXX</td>
+                    <td class="pt-3 pb-5"><?php echo get_field('work_description');?></td>
                 </tr>
             </tbody>
         </table>
@@ -80,6 +82,14 @@
                         <h3 class="subtitle">相片</h3>
                     </td>
                 </tr>
+                <tr>
+                    <td class="subtitle-bar-td">
+                    </td>
+                    <td class="mb-5">
+                        <h3 class="subtitle">fdsafdsaf</h3>
+                    </td>
+                </tr>
+
                 <tr>
                     <!-- <td></td> -->
                     <td colspan="2" class="pt-3 pb-5">
