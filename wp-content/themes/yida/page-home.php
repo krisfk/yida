@@ -9,7 +9,7 @@
 
 
             <?php
-                        $work_id_arr = get_field('home_banners_delicate_work');
+                        $work_id_arr = get_field('home_banners');
 
                         for($i=0;$i<count($work_id_arr);$i++)
                         {
