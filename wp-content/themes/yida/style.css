@@ -602,6 +602,9 @@ div.pp_pic_holder {
         position: absolute;
         right: 85px;
     }
+    .sns-ul li a img {
+        width: 24px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
