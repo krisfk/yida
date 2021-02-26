@@ -78,7 +78,6 @@
 
                     <td colspan="2" class="pt-3 pb-5">
 
-                        <!-- <h1 class="animate__animated animate__fadeIn">Animation</h1> -->
 
     <div class="  container-fluid flow-step-div flow-step-div-1">
 
