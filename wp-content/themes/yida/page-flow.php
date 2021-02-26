@@ -42,7 +42,9 @@
     </div>
 
 
-    <div class="l-inner">
+    <?php 
+    echo get_the_content();?>
+    <!-- <div class="l-inner">
 
 
         <table class="mt-5 content-table">
@@ -78,125 +80,125 @@
 
                         <!-- <h1 class="animate__animated animate__fadeIn">Animation</h1> -->
 
-                        <div class="  container-fluid flow-step-div flow-step-div-1">
+    <div class="  container-fluid flow-step-div flow-step-div-1">
 
-                            <div class="row">
-                                <div class="col-12"><img src="<?php echo 
+        <div class="row">
+            <div class="col-12"><img src="<?php echo 
 get_template_directory_uri().'/images/step-1.png'; ?>"></div>
-                            </div>
-                            <div class="row g-0">
+        </div>
+        <div class="row g-0">
 
-                                <div class="col step-col step-col-1">
-                                    <div class="num"> 01</div>
-                                    <div class="txt_under_num">現場洽談</div>
-                                </div>
-                                <div class="col step-col step-col-2">
-                                    <div class="num"> 02</div>
-                                    <div class="txt_under_num">快速報價</div>
-                                </div>
-                                <div class="col step-col step-col-3">
-                                    <div class="num"> 03</div>
-                                    <div class="txt_under_num">經相議後<br>
-                                        雙方簽訂合約</div>
-                                </div>
-                                <div class="col step-col step-col-4">
-                                    <div class="num"> 04</div>
-                                    <div class="txt_under_num">工程展開</div>
-                                </div>
-                                <div class="col step-col step-col-5">
-                                    <div class="num"> 05</div>
-                                    <div class="txt_under_num">清拆</div>
+            <div class="col step-col step-col-1">
+                <div class="num"> 01</div>
+                <div class="txt_under_num">現場洽談</div>
+            </div>
+            <div class="col step-col step-col-2">
+                <div class="num"> 02</div>
+                <div class="txt_under_num">快速報價</div>
+            </div>
+            <div class="col step-col step-col-3">
+                <div class="num"> 03</div>
+                <div class="txt_under_num">經相議後<br>
+                    雙方簽訂合約</div>
+            </div>
+            <div class="col step-col step-col-4">
+                <div class="num"> 04</div>
+                <div class="txt_under_num">工程展開</div>
+            </div>
+            <div class="col step-col step-col-5">
+                <div class="num"> 05</div>
+                <div class="txt_under_num">清拆</div>
 
-                                </div>
+            </div>
 
-                            </div>
-                        </div>
-
-
-                        <div class="step-grey-line mt-5 mb-5"></div>
-
-                        <div class="container-fluid flow-step-div flow-step-div-2">
-
-                            <div class="row">
-                                <div class="col-12"><img src="<?php echo 
-get_template_directory_uri().'/images/step-2.png'; ?>"></div>
-                            </div>
-                            <div class="row g-0">
-
-                                <div class="col step-col step-col-1">
-                                    <div class="num"> 06</div>
-                                    <div class="txt_under_num">來去水工程</div>
-                                </div>
-                                <div class="col step-col step-col-2">
-                                    <div class="num"> 07</div>
-                                    <div class="txt_under_num">電力工程</div>
-                                </div>
-                                <div class="col step-col step-col-3">
-                                    <div class="num"> 08</div>
-                                    <div class="txt_under_num">泥水工程<br>
-                                        雙方簽訂合約</div>
-                                </div>
-                                <div class="col step-col step-col-4">
-                                    <div class="num"> 09</div>
-                                    <div class="txt_under_num">傢俬度尺/出圖</div>
-                                </div>
-                                <div class="col step-col step-col-5">
-                                    <div class="num"> 10</div>
-                                    <div class="txt_under_num">油漆工程</div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                        <div class="step-grey-line mt-5 mb-5"></div>
-
-                        <div class="container-fluid flow-step-div flow-step-div-3">
-
-                            <div class="row">
-                                <div class="col-12"><img src="<?php echo 
-get_template_directory_uri().'/images/step-3.png'; ?>"></div>
-                            </div>
-                            <div class="row g-0">
-
-                                <div class="col step-col step-col-1">
-                                    <div class="num"> 11</div>
-                                    <div class="txt_under_num">傢俬組裝</div>
-                                </div>
-                                <div class="col step-col step-col-2">
-                                    <div class="num"> 12</div>
-                                    <div class="txt_under_num">安裝潔具、燈飾</div>
-                                </div>
-                                <div class="col step-col step-col-3">
-                                    <div class="num"> 13</div>
-                                    <div class="txt_under_num">執漏、測試</div>
-                                </div>
-                                <div class="col step-col step-col-4">
-                                    <div class="num"> 14</div>
-                                    <div class="txt_under_num">完工</div>
-                                </div>
-                                <div class="col step-col step-col-5">
-                                    <div class="num"> 15</div>
-                                    <div class="txt_under_num">完工後<br>
-                                        一年免費保養<br>
-                                        (不包人為損壞)</div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-
-
-
+        </div>
     </div>
+
+
+    <div class="step-grey-line mt-5 mb-5"></div>
+
+    <div class="container-fluid flow-step-div flow-step-div-2">
+
+        <div class="row">
+            <div class="col-12"><img src="<?php echo 
+get_template_directory_uri().'/images/step-2.png'; ?>"></div>
+        </div>
+        <div class="row g-0">
+
+            <div class="col step-col step-col-1">
+                <div class="num"> 06</div>
+                <div class="txt_under_num">來去水工程</div>
+            </div>
+            <div class="col step-col step-col-2">
+                <div class="num"> 07</div>
+                <div class="txt_under_num">電力工程</div>
+            </div>
+            <div class="col step-col step-col-3">
+                <div class="num"> 08</div>
+                <div class="txt_under_num">泥水工程<br>
+                    雙方簽訂合約</div>
+            </div>
+            <div class="col step-col step-col-4">
+                <div class="num"> 09</div>
+                <div class="txt_under_num">傢俬度尺/出圖</div>
+            </div>
+            <div class="col step-col step-col-5">
+                <div class="num"> 10</div>
+                <div class="txt_under_num">油漆工程</div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="step-grey-line mt-5 mb-5"></div>
+
+    <div class="container-fluid flow-step-div flow-step-div-3">
+
+        <div class="row">
+            <div class="col-12"><img src="<?php echo 
+get_template_directory_uri().'/images/step-3.png'; ?>"></div>
+        </div>
+        <div class="row g-0">
+
+            <div class="col step-col step-col-1">
+                <div class="num"> 11</div>
+                <div class="txt_under_num">傢俬組裝</div>
+            </div>
+            <div class="col step-col step-col-2">
+                <div class="num"> 12</div>
+                <div class="txt_under_num">安裝潔具、燈飾</div>
+            </div>
+            <div class="col step-col step-col-3">
+                <div class="num"> 13</div>
+                <div class="txt_under_num">執漏、測試</div>
+            </div>
+            <div class="col step-col step-col-4">
+                <div class="num"> 14</div>
+                <div class="txt_under_num">完工</div>
+            </div>
+            <div class="col step-col step-col-5">
+                <div class="num"> 15</div>
+                <div class="txt_under_num">完工後<br>
+                    一年免費保養<br>
+                    (不包人為損壞)</div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    </td>
+    </tr>
+    </tbody>
+    </table>
+
+
+
+
+    </div> -->
 </main>
 
 <script type="text/javascript">
