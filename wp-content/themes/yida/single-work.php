@@ -59,7 +59,6 @@
                     </td>
                     <td class="mb-5">
                         <h3 class="subtitle">
-                            <!-- 工程案例 -->
                             <?php echo get_the_title();?>
                         </h3>
                     </td>
@@ -85,8 +84,7 @@
                 <tr>
                     <td class="subtitle-bar-td">
                     </td>
-                    <td class="mb-5">
-                        <h3 class="subtitle">fdsafdsaf</h3>
+                    <td class="mb-5">fdsafdsaf
                     </td>
                 </tr>
 
