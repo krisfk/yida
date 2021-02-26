@@ -733,7 +733,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                     </ul>
                 </nav>
-                <ul>
+                <ul class="sns-ul">
 
                     <li> <a href="javascript:void(0);"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>

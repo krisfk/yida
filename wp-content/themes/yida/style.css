@@ -557,6 +557,16 @@ div.pp_pic_holder {
     cursor: default;
 }
 
+.sns-ul {}
+
+.sns-ul li {
+    display: inline-block;
+}
+
+.sns-ul li a img {
+    width: 30px;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
