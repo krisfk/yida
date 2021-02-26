@@ -279,7 +279,7 @@ a:hover {
 }
 
 .portfolio-filter-ul li a.active .arrow {
-    display: none;
+    /* display: none; */
 }
 
 .home .portfolio-thumbnail a {
