@@ -44,8 +44,7 @@
         </div>
 
 
-        <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
-            <!-- <div class="dots-cover"></div> -->
+        <!-- <div id="js-index-slider2" class="p-index-slider" data-slide-time="7000">
 
             <?php
                         $work_id_arr = get_field('home_banners_practical_work');
@@ -77,7 +76,7 @@
 
                         ?>
 
-        </div>
+        </div> -->
     </div>
 
 
