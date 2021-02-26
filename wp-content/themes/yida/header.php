@@ -708,6 +708,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     <?php
 					 global $post;
 					 $slug = $post->post_name;
+                     echo get_post_type();
 					 ?>
                     <ul id="js-global-nav" class="p-global-nav">
                         <li id="menu-item-809"
