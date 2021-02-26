@@ -81,12 +81,20 @@
                         <h3 class="subtitle"><?php echo get_field('work_description') ? '工作流程':'相片';?></h3>
                     </td>
                 </tr>
+                <?php
+                if(get_field('work_flow'))
+                {
+                    ?>
                 <tr>
                     <td class="subtitle-bar-td">
                     </td>
                     <td class="pt-3 pb-5"><?php echo get_field('work_flow');?>
                     </td>
                 </tr>
+                <?php
+                }
+                ?>
+
 
                 <tr>
                     <!-- <td></td> -->
