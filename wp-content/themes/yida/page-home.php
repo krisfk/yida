@@ -132,54 +132,6 @@
                 </tbody>
             </table>
 
-            <!-- <div id="cb_1" class="p-cb__item p-cb__item--banner">
-    <div class="p-index-banner has-image">
-        <div class="p-index-banner__image p-hover-effect__image"><img
-                src="https://design-halue.com/wp-content/uploads/2020/02/shop_banner-2.jpg" alt=""></div>
-        <div class="p-index-banner__content">
-            <div class="p-index-banner__content__inner">
-                <p class="p-index-banner__desc">日々の暮らしの楽しさや、空間づくりのお手伝いをさせていただくインテリアデザイン事務所です。</p>
-                <h2 class="p-index-banner__headline">interior design halue</h2>
-                <a class="p-index-banner__button p-button" href="profile"><span>Profile</span></a>
-            </div>
-        </div>
-    </div>
-</div> -->
-            <!-- <div id="cb_2" class="p-cb__item p-cb__item--three_boxes">
-    <div class="p-index-boxes p-index-boxes--3">
-        <div class="p-index-boxes__item p-index-boxes__item--1 has-image">
-            <a class="p-hover-effect--type3" href="service-3">
-                <div class="p-index-boxes__item-content">
-                    <p class="p-index-boxes__item-desc">ハルのサービス内容を掲載しています</p>
-                    <h2 class="p-index-boxes__item-headline">Service</h2>
-                </div>
-                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                        src="https://design-halue.com/wp-content/uploads/2020/02/service-1.jpg" alt="">
-                </div>
-            </a>
-        </div>
-        <div class="p-index-boxes__item p-index-boxes__item--2 has-image">
-            <a class="p-hover-effect--type3" href="works">
-                <div class="p-index-boxes__item-content">
-                    <p class="p-index-boxes__item-desc">実績をカテゴリ別にご紹介しています</p>
-                    <h2 class="p-index-boxes__item-headline">Works</h2>
-                </div>
-                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                        src="https://design-halue.com/wp-content/uploads/2020/07/works.jpg" alt=""></div>
-            </a>
-        </div>
-        <div class="p-index-boxes__item p-index-boxes__item--3 has-image">
-            <a class="p-hover-effect--type3" href="flow-2">
-                <div class="p-index-boxes__item-content">
-                    <p class="p-index-boxes__item-desc">ヒアリングから納品までの流れをご覧いただけます</p>
-                    <h2 class="p-index-boxes__item-headline">Flow</h2>
-                </div>
-                <div class="p-index-boxes__item-image p-hover-effect__image js-object-fit-cover"><img
-                        src="https://design-halue.com/wp-content/uploads/2020/07/flow.jpg" alt=""></div>
-            </a>
-        </div>
-    </div>
-</div> -->
 
         </div>
 
