@@ -93,7 +93,7 @@
         <div class="l-inner">
 
 
-            <table class="mt-5 content-table">
+            <table class="content-table">
                 <tbody>
                     <tr>
                         <td class="subtitle-bar-td">
