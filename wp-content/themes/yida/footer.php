@@ -1,5 +1,11 @@
 <footer class="l-footer">
 
+    <?php
+
+$page = get_page_by_path( 'footer' );
+echo get_the_title( $page );
+?>
+
     <div id="js-footer-widget" class="p-footer-widget-area p-footer-widget-area__has-social-nav">
         <div class="p-footer-widget-area__inner l-inner">
             <div class=" w-100 p-widget-footer site_info_widget pt-xl-5 pb-xl-5 pt-lg-5 pb-lg-5 pt-md-3 pb-md-3 pt-sm-3 pb-sm-3"
