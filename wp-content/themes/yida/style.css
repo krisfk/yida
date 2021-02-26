@@ -275,7 +275,7 @@ a:hover {
 
 .portfolio-filter-ul li a .arrow {
     /* display: inline-block; */
-    display: none;
+    /* display: none; */
 }
 
 .portfolio-filter-ul li a.active .arrow {
