@@ -733,12 +733,13 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                     </ul>
                 </nav>
-                <div class="p-header-search">
+                <div>fdsf</div>
+                <!-- <div class="p-header-search">
                     <form action="https://design-halue.com/" method="get">
                         <input type="text" name="s" value="" class="p-header-search__input" placeholder="SEARCH">
                     </form>
                     <a href="#" id="js-search-button" class="p-search-button c-search-button"></a>
-                </div>
+                </div> -->
             </div>
         </div>
 
