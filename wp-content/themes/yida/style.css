@@ -641,7 +641,7 @@ div.pp_pic_holder {
     .page-showcase .portfolio-filter-ul li {
         margin: 0 10px 0 0;
     }
-    .home .portfolio-filter-ul li a,
+    /* .home .portfolio-filter-ul li a, */
     .page-showcase .portfolio-filter-ul li a {
         box-shadow: 0px 0px 0px 1px #538c2f inset;
     }
