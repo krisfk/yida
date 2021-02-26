@@ -1,17 +1,10 @@
 <footer class="l-footer">
-    <div class="p-footer-search--mobile l-inner">
-        <form action="https://design-halue.com/" method="get">
-            <input type="text" name="s" value="" class="p-footer-search__input" placeholder="SEARCH">
-            <input type="submit" value="&#xe915;" class="p-footer-search__submit">
-        </form>
-    </div>
+
     <div id="js-footer-widget" class="p-footer-widget-area p-footer-widget-area__has-social-nav">
         <div class="p-footer-widget-area__inner l-inner">
             <div class=" w-100 p-widget-footer site_info_widget pt-xl-5 pb-xl-5 pt-lg-5 pb-lg-5 pt-md-3 pb-md-3 pt-sm-3 pb-sm-3"
                 id="site_info_widget-3">
                 <div class="p-siteinfo">
-                    <!-- <div class="p-siteinfo__image p-siteinfo__logo"><img alt="inteior design halue"
-                                src="https://design-halue.com/wp-content/uploads/2020/02/logo.png"></div> -->
 
 
                     <div class="row g-0">
