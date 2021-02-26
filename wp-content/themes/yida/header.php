@@ -737,8 +737,10 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                     <li> <a href="javascript:void(0);"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>
-                    <li><a href="javascript:void(0);"></a></li>
-                    <li><a href="javascript:void(0);"></a></li>
+                    <li><a href="javascript:void(0);"><img
+                                src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a></li>
+                    <li><a href="javascript:void(0);"><img
+                                src="<?php echo get_template_directory_uri();?>/images/email-icon.png" alt=""></a></li>
                 </ul>
                 <!-- <div class="p-header-search">
                     <form action="https://design-halue.com/" method="get">
