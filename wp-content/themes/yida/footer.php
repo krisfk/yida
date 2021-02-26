@@ -3,7 +3,12 @@
     <?php
 
 $footer = get_page_by_path( 'footer' );
-echo get_the_content( $footer );
+// echo get_the_content( $footer );
+$post   = get_post( $footer );
+
+$output =  apply_filters( 'the_content', $post->post_content );
+
+echo $output;
 ?>
 
 
