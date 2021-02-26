@@ -84,8 +84,8 @@
 
 
         <ul class="portfolio-filter-ul">
-            <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
-            <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
+            <li><a class="active" href="javascript:void(0);"> 我們是⋯ <span class="arrow">&gt;</span></a></li>
+            <li><a href="javascript:void(0);">工程案例 <span class="arrow">&gt;</span></a></li>
         </ul>
 
 
@@ -229,26 +229,26 @@ while ( $the_query->have_posts() ) :
 
 <script type="text/javascript">
 $(function() {
-    var viewing_idx = 1;
-    $('.portfolio-filter-ul li a').click(function() {
-        $('.portfolio-filter-ul li a').removeClass('active');
-        $(this).toggleClass('active');
+    // var viewing_idx = 1;
+    // $('.portfolio-filter-ul li a').click(function() {
+    //     $('.portfolio-filter-ul li a').removeClass('active');
+    //     $(this).toggleClass('active');
 
-        viewing_idx = $(this).parent('li').index() + 1;
+    //     viewing_idx = $(this).parent('li').index() + 1;
 
-        $('.portfolio-thumbnail').fadeOut(0);
-        $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
+    //     $('.portfolio-thumbnail').fadeOut(0);
+    //     $('.portfolio-thumbnail-' + viewing_idx).fadeIn(0);
 
-        // $('.p-index-slider').fadeOut(0);
+    //     // $('.p-index-slider').fadeOut(0);
 
-        $('.p-index-slider').css({
-            'z-index': '0'
-        });
+    //     $('.p-index-slider').css({
+    //         'z-index': '0'
+    //     });
 
-        $('.p-index-slider#js-index-slider' + viewing_idx).css({
-            'z-index': '100'
-        })
-    })
+    //     $('.p-index-slider#js-index-slider' + viewing_idx).css({
+    //         'z-index': '100'
+    //     })
+    // })
 })
 </script>
 <?php 
