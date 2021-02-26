@@ -598,6 +598,9 @@ div.pp_pic_holder {
         height: 50px;
         width: auto;
     }
+    .sns-ul {
+        margin: 0 40px 0 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
