@@ -85,8 +85,8 @@
 
 
         <ul class="portfolio-filter-ul">
-            <li><a class="active" href="javascript:void(0);"> 精緻作品 <span class="arrow">&gt;</span></a></li>
-            <li><a href="javascript:void(0);">實用作品 <span class="arrow">&gt;</span></a></li>
+            <li><a class="active" href="javascript:void(0);"> 精緻作品 </a></li>
+            <li><a href="javascript:void(0);">實用作品 </a></li>
         </ul>
 
 
