@@ -2,67 +2,11 @@
 
     <?php
 
-$page = get_page_by_path( 'footer' );
-echo get_the_title( $page );
+$footer = get_page_by_path( 'footer' );
+echo get_the_content( $footer );
 ?>
 
-    <div id="js-footer-widget" class="p-footer-widget-area p-footer-widget-area__has-social-nav">
-        <div class="p-footer-widget-area__inner l-inner">
-            <div class=" w-100 p-widget-footer site_info_widget pt-xl-5 pb-xl-5 pt-lg-5 pb-lg-5 pt-md-3 pb-md-3 pt-sm-3 pb-sm-3"
-                id="site_info_widget-3">
-                <div class="p-siteinfo">
 
-
-                    <div class="row g-0">
-
-                        <div class="col-xl-3 col-md-4 my-auto footer-grey-text">我們是一家室內設計裝修公司， <br>
-                            可幫助您佈置生活，享受你所想，<br>
-                            並創造一個充滿能量的空間。</div>
-                        <div class="col-xl-9 col-md-8 footer-grey-img-div">
-                            <img class="footer-grey-img" src="<?php echo 
-get_template_directory_uri().'/images/footer-thumbnail-1.jpg'; ?>">
-                            <img class="footer-grey-img" src="<?php echo 
-get_template_directory_uri().'/images/footer-thumbnail-2.jpg'; ?>">
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-
-    </div>
-    </div>
-
-
-    </div>
-    </div>
-
-    <div class="l-inner  d-table pt-3 pb-3">
-
-        <div class="footer-info-1">
-
-
-            <h3>依達貿易有限公司</h3>
-
-            <div>
-                地址:香港九龍大角咀合桃街1號福昌工廠大廈6樓A5室　<br>
-                電話: 9316 6606 李生 傳真 : 8147 1279
-                <!-- Copyright © 2020 YI DA TRADING LIMITED. All Rights Reserved. -->
-            </div>
-        </div>
-        <div class="footer-info-2">注冊小型工程承辦商 注冊電業承辦商
-        </div>
-
-    </div>
-    <div class="p-copyright">
-        <div class="l-inner text-start">
-            Copyright © 2020 YI DA TRADING LIMITED. All Rights Reserved.
-        </div>
-    </div>
-    <div id="js-pagetop" class="p-pagetop"><a href="#"></a></div>
 </footer>
 
 
