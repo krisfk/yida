@@ -78,13 +78,13 @@
                         <div class="subtitle-bar"></div>
                     </td>
                     <td class="mb-5">
-                        <h3 class="subtitle">相片</h3>
+                        <h3 class="subtitle"><?php echo get_field('work_description') ? '工作流程':'相片';?></h3>
                     </td>
                 </tr>
                 <tr>
                     <td class="subtitle-bar-td">
                     </td>
-                    <td class="mb-5">fdsafdsaf
+                    <td class="mb-5"><?php echo get_field('work_description');?>
                     </td>
                 </tr>
 
