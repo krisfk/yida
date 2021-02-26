@@ -95,7 +95,7 @@
             <table class="mt-5 content-table">
                 <tbody>
                     <tr>
-                        <td>
+                        <td class="subtitle-bar-td">
                             <div class="subtitle-bar"></div>
                         </td>
                         <td class="mb-5">
@@ -116,7 +116,7 @@
             <table class="mb-5 content-table">
                 <tbody>
                     <tr>
-                        <td>
+                        <td class="subtitle-bar-td">
                             <div class="subtitle-bar"></div>
                         </td>
                         <td>
