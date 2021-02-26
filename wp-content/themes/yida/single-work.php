@@ -84,7 +84,7 @@
                 <tr>
                     <td class="subtitle-bar-td">
                     </td>
-                    <td class="mb-5"><?php echo get_field('work_description');?>
+                    <td class="mb-5"><?php echo get_field('work_flow');?>
                     </td>
                 </tr>
 
