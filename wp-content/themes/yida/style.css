@@ -567,6 +567,10 @@ div.pp_pic_holder {
     width: 30px;
 }
 
+body.admin-bar {
+    padding-top: 0px !important;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
