@@ -650,3 +650,6 @@ function add_slug_body_class( $classes ) {
 
 add_filter( 'body_class', 'add_slug_body_class' );
 	
+if (current_user_can('administrator') || current_user_can('editor')) {
+	wp_admin_bar_render();
+   }
