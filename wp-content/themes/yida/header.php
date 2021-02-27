@@ -678,6 +678,9 @@ get_template_directory_uri().'/common.js'; ?>"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <?php wp_head(); ?>
+
+
 
 </head>
 
