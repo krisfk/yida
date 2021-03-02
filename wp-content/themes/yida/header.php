@@ -740,7 +740,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                 </nav>
                 <ul class="sns-ul">
 
-                    <li> <a href="javascript:void(0);"><img
+                    <li> <a target="_blank" href="https://wa.me/85293166606"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>
                     <li><a href="javascript:void(0);"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a></li>
