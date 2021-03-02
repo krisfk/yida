@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="岡山県倉敷市のインテリアデザイン事務所｜インテリアデザインハル">
+    <meta name="description" content="依達貿易有限公司">
     <meta name="viewport" content="width=device-width">
 
     <!-- This site is optimized with the Yoast SEO plugin v15.4 - https://yoast.com/wordpress/plugins/seo/ -->
