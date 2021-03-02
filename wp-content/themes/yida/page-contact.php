@@ -63,23 +63,23 @@
 
                         裝修工程種類繁多 , 不能盡錄 , 本公司提供免費報價及上門度尺 , 歡迎聯絡洽談 , 客戶亦可電郵圖則等資料查詢報價 <br><br>
 
-                        <table>
+                        <table class="d-inline-table">
                             <tr>
-                                <td>電話:</td>
+                                <td class="pe-2">電話:</td>
                                 <td>9316 6606 李 生</td>
                             </tr>
                             <tr>
-                                <td>傳真:</td>
+                                <td class="pe-2">傳真:</td>
                                 <td>8147 1279</td>
                             </tr>
                             <tr>
-                                <td>電郵:</td>
+                                <td class="pe-2">電郵:</td>
                                 <td> <a href="mailto:bun@interiordecorationshome.com"
                                         target="_blank">bun@interiordecorationshome.com</a>
                                 </td>
                             </tr>
                             <tr>
-                                <td>地址:</td>
+                                <td class="pe-2">地址:</td>
                                 <td>大角咀合桃街一號6A5室</td>
                             </tr>
 
