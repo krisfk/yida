@@ -58,7 +58,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td class="pt-3 pb-5">
+                    <td class="pt-3">
 
                         <?php echo get_the_content();?>
 
