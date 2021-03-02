@@ -584,6 +584,10 @@ body.admin-bar {
     margin: 20px 0 20px 0;
 }
 
+.page-contact a {
+    letter-spacing: normal;
+}
+
 @media only screen and (max-width: 1920px) {}
 
 @media only screen and (max-width: 1200px) {}
