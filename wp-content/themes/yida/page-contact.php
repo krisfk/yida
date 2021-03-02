@@ -63,7 +63,7 @@
 
                         裝修工程種類繁多 , 不能盡錄 , 本公司提供免費報價及上門度尺 , 歡迎聯絡洽談 , 客戶亦可電郵圖則等資料查詢報價 <br><br>
 
-                        <table class="d-inline-table">
+                        <table class="d-inline-block">
                             <tr>
                                 <td class="pe-2">電話:</td>
                                 <td>9316 6606 李 生</td>
