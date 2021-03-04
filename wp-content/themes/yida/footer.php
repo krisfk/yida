@@ -24,16 +24,7 @@ echo $output;
 <link rel='stylesheet' id='swiper-css'
     href='<?php echo get_template_directory_uri().'/yida-assets/'; ?>swiper.min.css?ver=3.1.0' type='text/css'
     media='all' />
-<script type='text/javascript' id='contact-form-7-js-extra'>
-/* <![CDATA[ */
-var wpcf7 = {
-    "apiSettings": {
-        "root": "https:\/\/design-halue.com\/wp-json\/contact-form-7\/v1",
-        "namespace": "contact-form-7\/v1"
-    }
-};
-/* ]]> */
-</script>
+
 <script type='text/javascript' src='<?php echo get_template_directory_uri().'/yida-assets/'; ?>scripts.js?ver=5.3'
     id='contact-form-7-js'></script>
 <script type='text/javascript' src='<?php echo get_template_directory_uri().'/yida-assets/'; ?>front-page.js?ver=1.6'
@@ -49,13 +40,7 @@ var wpcf7 = {
 <script type='text/javascript'
     src='<?php echo get_template_directory_uri().'/yida-assets/'; ?>wp-embed.min.js?ver=5.5.3' id='wp-embed-js'>
 </script>
-<script type='text/javascript' id='insta-gallery-js-extra'>
-/* <![CDATA[ */
-var qligg = {
-    "ajax_url": "https:\/\/design-halue.com\/wp-admin\/admin-ajax.php"
-};
-/* ]]> */
-</script>
+
 <script type='text/javascript'
     src='<?php echo get_template_directory_uri().'/yida-assets/'; ?>frontend.js?ver=75cfaa425a2687569e77100aa3d2c489'
     id='insta-gallery-js'></script>

@@ -6,52 +6,9 @@
     <meta name="description" content="依達貿易有限公司">
     <meta name="viewport" content="width=device-width">
 
-    <!-- This site is optimized with the Yoast SEO plugin v15.4 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>依達貿易有限公司</title>
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <!-- <link rel="canonical" href="https://design-halue.com/" /> -->
-    <!-- <meta property="og:locale" content="ja_JP" /> -->
-    <!-- <meta property="og:type" content="website" /> -->
-    <!-- <meta property="og:title" content="トップページ - interior design halue" /> -->
-    <!-- <meta property="og:url" content="https://design-halue.com/" /> -->
-    <!-- <meta property="og:site_name" content="interior design halue" /> -->
-    <!-- <meta name="twitter:card" content="summary_large_image" /> -->
-    <!-- <meta name="twitter:label1" content="Written by"> -->
-    <!-- <meta name="twitter:data1" content="halue"> -->
-    <!-- <script type="application/ld+json" class="yoast-schema-graph">
-    {
-        "@context": "https://schema.org",
-        "@graph": [{
-            "@type": "WebSite",
-            "@id": "https://design-halue.com/#website",
-            "url": "https://design-halue.com/",
-            "name": "interior design halue",
-            "description": "\u5ca1\u5c71\u770c\u5009\u6577\u5e02\u306e\u30a4\u30f3\u30c6\u30ea\u30a2\u30c7\u30b6\u30a4\u30f3\u4e8b\u52d9\u6240\uff5c\u30a4\u30f3\u30c6\u30ea\u30a2\u30c7\u30b6\u30a4\u30f3\u30cf\u30eb",
-            "potentialAction": [{
-                "@type": "SearchAction",
-                "target": "https://design-halue.com/?s={search_term_string}",
-                "query-input": "required name=search_term_string"
-            }],
-            "inLanguage": "ja"
-        }, {
-            "@type": "WebPage",
-            "@id": "https://design-halue.com/#webpage",
-            "url": "https://design-halue.com/",
-            "name": "\u30c8\u30c3\u30d7\u30da\u30fc\u30b8 - interior design halue",
-            "isPartOf": {
-                "@id": "https://design-halue.com/#website"
-            },
-            "datePublished": "2019-04-24T05:31:04+00:00",
-            "dateModified": "2019-04-24T05:31:04+00:00",
-            "inLanguage": "ja",
-            "potentialAction": [{
-                "@type": "ReadAction",
-                "target": ["https://design-halue.com/"]
-            }]
-        }]
-    }
-    </script> -->
-    <!-- / Yoast SEO plugin. -->
+
 
 
     <link rel='dns-prefetch' href='//s.w.org' />
@@ -73,17 +30,6 @@
     <script type='text/javascript'
         src='<?php echo get_template_directory_uri().'/yida-assets/'; ?>jquery.js?ver=1.12.4-wp' id='jquery-core-js'>
     </script>
-    <!-- <link rel="https://api.w.org/" href="https://design-halue.com/wp-json/" /> -->
-    <!-- <link rel="alternate" type="application/json" href="https://design-halue.com/wp-json/wp/v2/pages/68" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://design-halue.com/xmlrpc.php?rsd" />
-    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="https://design-halue.com/wp-includes/wlwmanifest.xml" /> -->
-    <!-- <meta name="generator" content="WordPress 5.5.3" /> -->
-    <!-- <link rel='shortlink' href='https://design-halue.com/' />
-    <link rel="alternate" type="application/json+oembed"
-        href="https://design-halue.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesign-halue.com%2F" />
-    <link rel="alternate" type="text/xml+oembed"
-        href="https://design-halue.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fdesign-halue.com%2F&#038;format=xml" /> -->
     <style>
     .p-article-news__date,
     .p-wc-headline,
@@ -747,12 +693,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                     <li><a href="javascript:void(0);"><img
                                 src="<?php echo get_template_directory_uri();?>/images/email-icon.png" alt=""></a></li>
                 </ul>
-                <!-- <div class="p-header-search">
-                    <form action="https://design-halue.com/" method="get">
-                        <input type="text" name="s" value="" class="p-header-search__input" placeholder="SEARCH">
-                    </form>
-                    <a href="#" id="js-search-button" class="p-search-button c-search-button"></a>
-                </div> -->
+
             </div>
         </div>
 
