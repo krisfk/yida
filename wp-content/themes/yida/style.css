@@ -312,7 +312,7 @@ body.l-header__fix .is-header-fixed .l-header__bar {
 
 .l-header a,
 .p-global-nav a {
-    color: #000000;
+    color: #000000 !important;
 }
 
 .p-header__logo--text {
