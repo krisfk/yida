@@ -65,7 +65,7 @@
                     </td>
                     <td class="mb-5">
                         <h3 class="subtitle">
-                            <?php echo get_the_title();?>ff
+                            <?php echo get_the_title();?>
                         </h3>
                     </td>
                 </tr>
@@ -88,7 +88,9 @@
                         <div class="subtitle-bar"></div>
                     </td>
                     <td class="mb-5">
-                        <h3 class="subtitle"><?php echo get_field('work_description') ? '工作流程':'相片';?></h3>
+                        <h3 class="subtitle">
+                            <?php echo get_the_title();  //echo get_field('work_description') ? '工作流程':'相片';?>
+                        </h3>
                     </td>
                 </tr>
                 <?php
