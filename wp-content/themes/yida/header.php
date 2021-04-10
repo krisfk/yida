@@ -161,6 +161,16 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
         })
 
+        $('.wechat-icon-a').click(function() {
+
+            $(this).toggleClass('active');
+            if (!$('.wechat-icon-a').hasClass('active')) {
+
+                $('.yida-qrcode').fadeOut(0);
+            }
+
+        })
+
         $('.l-header__bar.p-header__bar').mouseleave(function() {
             $('.yida-qrcode').fadeOut(0);
 
