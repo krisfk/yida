@@ -156,7 +156,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
     <script type="text/javascript">
     $(function() {
 
-        $('.wechat-icon-a').mouseEnter(function() {
+        $('.wechat-icon-a').mouseenter(function() {
             $('.yida-qrcode').fadeIn(0);
 
         })
