@@ -92,17 +92,17 @@
                     </td>
                 </tr>
                 <?php
-                if(get_field('work_flow'))
-                {
+                // if(get_field('work_flow'))
+                // {
                     ?>
-                <tr>
+                <!-- <tr>
                     <td class="subtitle-bar-td">
                     </td>
                     <td class="pt-3 pb-5"><?php echo get_field('work_flow');?>
                     </td>
-                </tr>
+                </tr> -->
                 <?php
-                }
+                // }
                 ?>
 
 
