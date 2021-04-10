@@ -134,7 +134,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>
                     <li><a href="javascript:void(0);"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a></li>
-                    <li><a href="javascript:void(0);"><img
+                    <li><a href="mailto:bun@interiorshk.com" target="_blank"><img
                                 src="<?php echo get_template_directory_uri();?>/images/email-icon.png" alt=""></a></li>
                 </ul>
 
