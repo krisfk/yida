@@ -161,5 +161,10 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
         })
 
+        $('.l-header__bar.p-header__bar').mouseleave(function() {
+            $('.yida-qrcode').fadeOut(0);
+
+        })
+
     })
     </script>
