@@ -167,6 +167,9 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
             if (!$('.wechat-icon-a').hasClass('active')) {
 
                 $('.yida-qrcode').fadeOut(0);
+            } else {
+                $('.yida-qrcode').fadeIn(0);
+
             }
 
         })
