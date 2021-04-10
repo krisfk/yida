@@ -132,10 +132,20 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
 
                     <li> <a target="_blank" href="https://wa.me/85293166606"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>
-                    <li><a href="javascript:void(0);"><img
-                                src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a></li>
-                    <li><a href="mailto:bun@interiorshk.com" target="_blank"><img
-                                src="<?php echo get_template_directory_uri();?>/images/email-icon.png" alt=""></a></li>
+                    <li class="position-relative">
+
+                        <a href="javascript:void(0);"><img
+                                src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a>
+
+                        <img class="yida-qrcode" src="<?php echo get_template_directory_uri();?>/images/yida-qrcode.jpg"
+                            alt="">
+                    </li>
+                    <li>
+
+                        <a href="mailto:bun@interiorshk.com" target="_blank">
+
+                            <img src="<?php echo get_template_directory_uri();?>/images/email-icon.png" alt=""></a>
+                    </li>
                 </ul>
 
             </div>
