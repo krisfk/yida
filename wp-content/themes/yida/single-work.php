@@ -65,7 +65,7 @@
                     </td>
                     <td class="mb-5">
                         <h3 class="subtitle">
-                            <?php echo get_the_title();?>
+                            <?php echo get_the_title();?>ff
                         </h3>
                     </td>
                 </tr>
