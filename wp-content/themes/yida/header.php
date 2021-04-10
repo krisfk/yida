@@ -134,7 +134,7 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
                                 src="<?php echo get_template_directory_uri();?>/images/wts-icon.png" alt=""></a></li>
                     <li class="position-relative">
 
-                        <a href="javascript:void(0);"><img
+                        <a href="javascript:void(0);" class="wechat-icon-a"><img
                                 src="<?php echo get_template_directory_uri();?>/images/wechat-icon.png" alt=""></a>
 
                         <img class="yida-qrcode" src="<?php echo get_template_directory_uri();?>/images/yida-qrcode.jpg"
@@ -152,3 +152,14 @@ get_template_directory_uri().'/images/logo.png'; ?>" alt="">
         </div>
 
     </header>
+
+    <script type="text/javascript">
+    $(function() {
+
+        $('.wechat-icon-a').mouseEnter(function() {
+            $('.yida-qrcode').fadeIn(0);
+
+        })
+
+    })
+    </script>
