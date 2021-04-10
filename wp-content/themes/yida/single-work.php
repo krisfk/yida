@@ -54,10 +54,10 @@
         <div class="mt-5"></div>
 
         <?php
-        // if(get_field('work_description'))
-        // {
+        if(get_field('work_description'))
+        {
             ?>
-        <!-- <table class="content-table">
+        <table class="content-table">
             <tbody>
                 <tr>
                     <td class="subtitle-bar-td">
@@ -74,9 +74,9 @@
                     <td class="pt-3 pb-5"><?php echo get_field('work_description');?></td>
                 </tr>
             </tbody>
-        </table> -->
+        </table>
         <?php
-        // }
+        }
         ?>
 
 
@@ -92,17 +92,17 @@
                     </td>
                 </tr>
                 <?php
-                // if(get_field('work_flow'))
-                // {
+                if(get_field('work_flow'))
+                {
                     ?>
-                <!-- <tr>
+                <tr>
                     <td class="subtitle-bar-td">
                     </td>
                     <td class="pt-3 pb-5"><?php echo get_field('work_flow');?>
                     </td>
-                </tr> -->
+                </tr>
                 <?php
-                // }
+                }
                 ?>
 
 
