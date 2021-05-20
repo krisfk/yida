@@ -151,7 +151,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>fds</td>
+                    <td colspan="2">fds</td>
                 </tr>
 
             </tbody>
