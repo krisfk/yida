@@ -141,6 +141,16 @@
 
                     </td>
                 </tr>
+                <tr>
+                    <td class="subtitle-bar-td">
+                        <div class="subtitle-bar"></div>
+                    </td>
+                    <td class="mb-5">
+                        <h3 class="subtitle">
+                            ffdsf </h3>
+                    </td>
+                </tr>
+
             </tbody>
         </table>
 
