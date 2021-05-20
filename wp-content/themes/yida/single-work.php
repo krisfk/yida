@@ -153,7 +153,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2"><?php echo get_field('video');?></td>
+                    <td colspan="2" class="pt-3"><?php echo get_field('video');?></td>
                 </tr>
                 <?php } ?>
 
