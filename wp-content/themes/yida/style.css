@@ -1182,6 +1182,9 @@ body.admin-bar {
 }
 
 @media only screen and (max-width: 640px) {
+    .video-td iframe {
+        width: 100%;
+    }
     .footer-grey-text {
         text-align: center;
     }
