@@ -141,18 +141,21 @@
 
                     </td>
                 </tr>
+
+                <?php if(get_field('video')){?>
                 <tr>
                     <td class="subtitle-bar-td">
                         <div class="subtitle-bar"></div>
                     </td>
                     <td class="mb-5">
                         <h3 class="subtitle">
-                            ffdsf </h3>
+                            影片 </h3>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2">fds</td>
+                    <td colspan="2"><?php echo get_field('video');?></td>
                 </tr>
+                <?php } ?>
 
             </tbody>
         </table>
