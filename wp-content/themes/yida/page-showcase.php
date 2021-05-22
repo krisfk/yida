@@ -102,8 +102,9 @@
 
 
         <ul class="portfolio-filter-ul">
-            <li><a class="active" href="javascript:void(0);"> 精緻作品 </a></li>
-            <li><a href="javascript:void(0);">實用作品 </a></li>
+            <li><a class="active" href="javascript:void(0);">實用作品 </a></li>
+
+            <li><a href="javascript:void(0);"> 精緻作品 </a></li>
         </ul>
 
 
@@ -111,36 +112,42 @@
 
             <div class="row">
 
+
+
                 <?php
 
 $the_query = new WP_Query( array(
-    'post_type' => 'work',
-    'orderby' => 'menu_order',
-    'tax_query' => array(
-        array (
-            'taxonomy' => 'work_type',
-            'field' => 'slug',
-            'terms' => 'delicated-work',
-        )
-    ),
+'post_type' => 'work',
+'orderby' => 'menu_order',
+'tax_query' => array(
+array (
+'taxonomy' => 'work_type',
+'field' => 'slug',
+'terms' => 'practical-work',
+)
+),
 ) );
 
 while ( $the_query->have_posts() ) :
-    $the_query->the_post();
-    $img_id = get_field('small_rectangle_image');
-    $img_arr =wp_get_attachment_image_src($img_id,'full');
-    $img_url = $img_arr[0];
-    echo ' <div class="col-lg-6 mb-4">
+$the_query->the_post();
+$img_id = get_field('small_rectangle_image');
+$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_url = $img_arr[0];
+echo '  <div class="col-lg-6 mb-4">
 
-    <a href="'.get_permalink().'">
-        <img class="w-100" src="'.$img_url.'" alt="">
-                </a>
+<a href="'.get_permalink().'">
 
-            </div>';
+<div class="caption">'.get_the_title().'</div>
+<img class="w-100" src="'.$img_url.'" alt="">
+</a>
 
-            endwhile;
+</div>';
+endwhile;
 
-            ?>
+?>
+
+
+
 
 
 
@@ -149,49 +156,45 @@ while ( $the_query->have_posts() ) :
 
 
         <div class="container g-0 portfolio-thumbnail portfolio-thumbnail-2">
-
             <div class="row">
-
-
 
                 <?php
 
 $the_query = new WP_Query( array(
-    'post_type' => 'work',
-    'orderby' => 'menu_order',
-    'tax_query' => array(
-        array (
-            'taxonomy' => 'work_type',
-            'field' => 'slug',
-            'terms' => 'practical-work',
-        )
-    ),
+'post_type' => 'work',
+'orderby' => 'menu_order',
+'tax_query' => array(
+array (
+'taxonomy' => 'work_type',
+'field' => 'slug',
+'terms' => 'delicated-work',
+)
+),
 ) );
 
 while ( $the_query->have_posts() ) :
-    $the_query->the_post();
-    $img_id = get_field('small_rectangle_image');
-    $img_arr =wp_get_attachment_image_src($img_id,'full');
-    $img_url = $img_arr[0];
-    echo '  <div class="col-lg-6 mb-4">
+$the_query->the_post();
+$img_id = get_field('small_rectangle_image');
+$img_arr =wp_get_attachment_image_src($img_id,'full');
+$img_url = $img_arr[0];
+echo ' <div class="col-lg-6 mb-4">
 
-    <a href="'.get_permalink().'">
-
-        <div class="caption">'.get_the_title().'</div>
-        <img class="w-100" src="'.$img_url.'" alt="">
-    </a>
+<a href="'.get_permalink().'">
+<img class="w-100" src="'.$img_url.'" alt="">
+</a>
 
 </div>';
-            endwhile;
 
-            ?>
+endwhile;
 
-
-
+?>
 
 
 
             </div>
+
+
+
         </div>
 
 
